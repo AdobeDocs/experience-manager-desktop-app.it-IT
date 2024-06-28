@@ -3,16 +3,16 @@ title: Installare e configurare l’app desktop
 description: Installare e configurare [!DNL Adobe Experience Manager] app desktop con cui lavorare [!DNL Adobe Experience Manager Assets] e scaricare le risorse sul file system locale.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
 # Installa [!DNL Adobe Experience Manager] app desktop {#install-app-v2}
 
-Utilizzo di [!DNL Adobe Experience Manager] dell&#39;app desktop, le risorse in [!DNL Experience Manager] sono facilmente disponibili sul desktop locale e possono essere utilizzati in qualsiasi applicazione desktop nativa. È possibile visualizzare in anteprima le risorse, aprirle in applicazioni desktop native, rivelarle in Mac Finder o Esplora risorse per inserirle in altri documenti e modificarle localmente. Le modifiche vengono salvate nuovamente in [!DNL Experience Manager] quando carichi e viene creata una nuova versione nell’archivio.
+Utilizzo di [!DNL Adobe Experience Manager] dell&#39;app desktop, le risorse in [!DNL Experience Manager] sono facilmente disponibili sul desktop locale e possono essere utilizzati in qualsiasi applicazione desktop nativa. Assets può essere visualizzato in anteprima e aperto nelle app desktop. Possono essere visualizzati nel Finder o in Explorer per l&#39;utilizzo nei documenti e modificati localmente. Le modifiche vengono salvate di nuovo in [!DNL Experience Manager], creando una nuova versione al momento del caricamento.
 
 Tale integrazione consente a vari ruoli dell’organizzazione di:
 
@@ -20,9 +20,9 @@ Tale integrazione consente a vari ruoli dell’organizzazione di:
 
 * Accedi alle risorse in qualsiasi applicazione desktop nativa, incluse le applicazioni di terze parti e in Adobe Creative Cloud. In questo modo gli utenti possono aderire facilmente ai vari standard, compreso il branding.
 
-Da utilizzare [!DNL Experience Manager] app desktop:
+Per utilizzare [!DNL Experience Manager] app desktop:
 
-* Assicurati che il tuo [!DNL Experience Manager] versione supportata da [!DNL Experience Manager] app desktop. Consulta la [requisiti di sistema](release-notes.md).
+* Assicurati che il tuo [!DNL Experience Manager] è compatibile con [!DNL Experience Manager] app desktop.
 
 * Scarica e installa l’applicazione. Consulta [installare l’app desktop](#install-v2) di seguito.
 
@@ -38,11 +38,11 @@ Se utilizzi la versione 1.x dell’app desktop, comprendi le differenze e le ana
 
 >[!NOTE]
 >
->Due versioni dell&#39;app desktop non possono coesistere in un computer. Prima di installare una versione, disinstalla l’altra versione.
+>Due versioni di un&#39;app desktop non possono coesistere in un computer. Prima di installare una versione, disinstalla l’altra versione.
 
 Per effettuare l’aggiornamento da una versione precedente dell’app, segui queste istruzioni:
 
-1. Prima di eseguire l&#39;aggiornamento, sincronizza tutte le risorse e carica le modifiche in [!DNL Experience Manager]. In questo modo, si evita di perdere eventuali modifiche durante la disinstallazione dell’app.
+1. Prima di eseguire l&#39;aggiornamento, sincronizza tutte le risorse e carica le modifiche in [!DNL Experience Manager]. In questo modo si evita di perdere eventuali modifiche durante la disinstallazione dell’app.
 
 1. Disinstalla la versione precedente dell’app. Durante la disinstallazione, selezionare l&#39;opzione per cancellare la cache.
 
@@ -60,7 +60,7 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
 1. Se aggiorni un’app da un’altra versione, consulta [aggiornare l’app desktop](#upgrade-from-previous-version).
 
-1. Ignora questo passaggio se utilizzi [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o successiva, oppure [!DNL Experience Manager] 6.5.0 o successiva. Assicurati che il tuo [!DNL Experience Manager] la configurazione soddisfa i requisiti di compatibilità indicati nella [note sulla versione](release-notes.md). Se necessario, scaricare le [pacchetto di compatibilità](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) e installarlo utilizzando [!DNL Experience Manager] Gestione pacchetti come [!DNL Experience Manager] amministratore. Per installare un pacchetto, vedi [Come utilizzare i pacchetti](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it).
+1. Ignora questo passaggio se utilizzi [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o successiva, oppure [!DNL Experience Manager] 6.5.0 o successiva. Assicurati che il tuo [!DNL Experience Manager] la configurazione soddisfa i requisiti di compatibilità indicati nella [note sulla versione](release-notes.md). Se necessario, scaricare le [pacchetto di compatibilità](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) e installarlo utilizzando [!DNL Experience Manager] Gestione pacchetti come [!DNL Experience Manager] amministratore. Per installare un pacchetto, vedi [Come utilizzare i pacchetti](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Eseguire il file binario del programma di installazione e seguire le istruzioni visualizzate per l&#39;installazione.
 
@@ -92,35 +92,35 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
    *Figura: L’applicazione visualizza il contenuto DAM dopo l’accesso*
 
-1. ([!DNL Experience Manager] 6.5.1 o versione successiva) Se utilizzi un’app desktop con [!DNL Experience Manager] 6.5.1 o versione successiva, aggiorna il connettore S3 o Azure alla versione 1.10.4 o successiva. Consulta [Connettore Azure](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) o [Connettore S3](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o versione successiva) Se utilizzi l’app desktop con [!DNL Experience Manager] 6.5.1 o versione successiva, aggiorna il connettore S3 o Azure alla versione 1.10.4 o successiva. Consulta [Connettore Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [Connettore S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
-   Se sei un cliente di Adobe Managed Services (AMS), contatta l’Assistenza clienti di Adobe.
+   Se sei un cliente Adobe di Managed Services (AMS), contatta l’Assistenza clienti Adobe.
 
 ## Impostare le preferenze {#set-preferences}
 
 Per modificare le preferenze, fare clic su ![Icona Altre opzioni](assets/do-not-localize/more_options_da2.png) e **[!UICONTROL Preference]** ![Icona Preferenze](assets/do-not-localize/preferences_icon_da2.png). In **[!UICONTROL Preferences]** regolare i valori dei seguenti elementi:
 
-* [!UICONTROL Launch application on login].
+* [!UICONTROL Launch the application on logon].
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show a window when the application starts].
 
 * **[!UICONTROL Cache Directory]**: posizione della cache locale dell’app (contiene le risorse scaricate localmente).
 
-* **[!UICONTROL Network Drive Letter]**: lettera di unità utilizzata per la mappatura a [!DNL Experience Manager] DAM Non modificare questa impostazione se non si è sicuri. L&#39;app può essere mappata su qualsiasi lettera di unità in Windows. Se due utenti inseriscono risorse da lettere di unità diverse, non possono vedere le risorse posizionate l’uno dall’altro. Il percorso delle risorse cambia. Le risorse rimangono nel file binario (ad esempio, INDD) e non vengono rimosse. L’app elenca tutte le lettere di unità disponibili e per impostazione predefinita utilizza l’ultima lettera disponibile, che è in genere `Z`.
+* **[!UICONTROL Network Drive Letter]**: lettera di unità utilizzata per la mappatura a [!DNL Experience Manager] DAM Non modificare la lettera dell&#39;unità di rete se non si è sicuri. L&#39;app può essere mappata su qualsiasi lettera di unità in Windows. Se due utenti inseriscono risorse da lettere di unità diverse, non possono vedere le risorse posizionate l’uno dall’altro. Il percorso delle risorse cambia. Le risorse rimangono nel file binario (ad esempio, INDD) e non vengono rimosse. L’app elenca tutte le lettere di unità disponibili e per impostazione predefinita utilizza l’ultima lettera disponibile, che è in genere `Z`.
 
 * **[!UICONTROL Maximum Cache Size]**: cache consentita sul disco rigido in GB utilizzata per l’archiviazione delle risorse scaricate localmente.
 
 * **[!UICONTROL Current cache size]**: dimensione di archiviazione delle risorse scaricate localmente. Le informazioni vengono visualizzate solo dopo il download delle risorse tramite l’app.
 
-* **[!UICONTROL Automatically download linked assets]**: le risorse inserite nelle app di Creative Cloud native supportate vengono recuperate automaticamente se scarichi il file originale.
+* **[!UICONTROL Automatically download linked assets]**: quando scarichi il file originale, le risorse posizionate nelle app di Creative Cloud native supportate vengono recuperate automaticamente.
 
-* **[!UICONTROL Maximum number of downloads]**: ![icona di avviso](assets/do-not-localize/caution-icon.png) Cambiate con cautela. Quando si scaricano le risorse per la prima volta (tramite l’opzione Mostra, Apri, Modifica, Scarica o simile), le risorse vengono scaricate solo se il batch contiene meno di questo numero. Il valore predefinito è 50. Non cambiare se non si è sicuri. L’aumento del valore può causare tempi di attesa più lunghi e la riduzione del valore potrebbe non consentire di scaricare le risorse o cartelle necessarie in una sola volta.
+* **[!UICONTROL Maximum number of downloads]**: ![icona di avviso](assets/do-not-localize/caution-icon.png) Cambiate con cautela. Quando si scaricano le risorse per la prima volta (tramite l’opzione Mostra, Apri, Modifica, Scarica o simile), le risorse vengono scaricate solo se il batch contiene meno di questo numero. Il valore predefinito è 50. Non cambiare se non si è sicuri. L’aumento del valore può causare tempi di attesa più lunghi, mentre una riduzione di questo valore potrebbe impedire di scaricare tutte le risorse o cartelle necessarie in un unico tentativo.
 
 * **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![icona di avviso](assets/do-not-localize/caution-icon.png) Cambiate con cautela. Questa impostazione consente all’app di emulare il comportamento dell’app v1.10 durante il caricamento delle cartelle. Nella versione 1.10, i nomi dei nodi creati nell’archivio rispettano gli spazi e le maiuscole/minuscole dei nomi delle cartelle forniti dall’utente. Tuttavia, nella versione 2.1 dell’app, gli spazi in più nei nomi delle cartelle vengono convertiti in trattini. Ad esempio, il caricamento `New Folder` o `new   folder` crea lo stesso nodo nell’archivio se l’opzione non è selezionata e viene mantenuto il comportamento predefinito nella versione v2.1. Se questa opzione è selezionata, nell’archivio vengono creati nodi diversi per le due cartelle precedenti e il comportamento corrisponde a quello dell’app v1.10.
 
-  Il comportamento predefinito di v2.1 continua a rimanere invariato, ovvero sostituisce più spazi nei nomi delle cartelle con trattini nel nome del nodo dell’archivio e converte in nomi di nodo minuscoli.
+  Il comportamento predefinito della versione 2.1 rimane invariato: sostituisce più spazi nei nomi delle cartelle con trattini nel nome del nodo dell’archivio e converte i nomi dei nodi in minuscolo.
 
-* **[!UICONTROL Upload Acceleration]**: ![icona di avviso](assets/do-not-localize/caution-icon.png) Cambiate con cautela. Quando si caricano le risorse, l’applicazione può utilizzare i caricamenti simultanei per migliorare la velocità di caricamento. Per aumentare la concorrenza del caricamento, sposta il cursore verso destra. Il dispositivo di scorrimento all’estrema sinistra indica che non c’è concorrenza (caricamento a thread singolo), la posizione centrale corrisponde a 10 thread simultanei e il limite massimo sull’estrema destra corrisponde a 20 thread simultanei. Un limite di concorrenza più elevato richiede più risorse.
+* **[!UICONTROL Upload Acceleration]**: ![icona di avviso](assets/do-not-localize/caution-icon.png) Cambiate con cautela. Quando si caricano le risorse, l’applicazione può utilizzare i caricamenti simultanei per migliorare la velocità di caricamento. Per aumentare la concorrenza del caricamento, sposta il cursore verso destra. Il dispositivo di scorrimento all’estrema sinistra significa assenza di concorrenza (caricamento a thread singolo), la posizione centrale corrisponde a dieci thread simultanei e il limite massimo all’estrema destra corrisponde a 20 thread simultanei. Un limite di concorrenza più elevato richiede più risorse.
 
 Per aggiornare le preferenze non disponibili, esci da [!DNL Experience Manager] e quindi aggiornare. Dopo aver aggiornato le preferenze, fai clic su ![Salva preferenze](assets/do-not-localize/save_preferences_da2.png).
 
@@ -130,7 +130,7 @@ Per aggiornare le preferenze non disponibili, esci da [!DNL Experience Manager] 
 
 ### Supporto proxy {#proxy-support}
 
-[!DNL Experience Manager] L’app desktop utilizza il proxy predefinito del sistema per la connessione a Internet tramite HTTPS. L&#39;app può connettersi solo utilizzando un proxy di rete che non richiede autenticazione aggiuntiva.
+Il [!DNL Experience Manager] L’app desktop utilizza il proxy predefinito del sistema per la connessione a Internet tramite HTTPS. L&#39;app può connettersi solo utilizzando un proxy di rete che non richiede autenticazione aggiuntiva.
 
 Se si configurano o si modificano le impostazioni del server proxy per Windows (Opzioni Internet > Impostazioni LAN), riavviare [!DNL Experience Manager] dell&#39;app desktop per rendere effettive le modifiche. La configurazione proxy viene applicata all&#39;avvio dell&#39;app desktop. Per rendere effettive le modifiche, chiudi e riavvia l’app.
 
@@ -156,7 +156,7 @@ Per disinstallare l&#39;applicazione su Mac, eseguire la procedura seguente:
 
 1. Rimuovi il `Adobe Experience Manager Desktop.app` da `/Applications`.
 
-In alternativa, per pulire le cache interne dell’applicazione su Mac e disinstallare l’app, puoi eseguire il seguente comando nel terminale:
+In alternativa, per pulire le cache interne dell’applicazione sul Mac e disinstallare l’app, puoi eseguire il seguente comando nel terminale:
 
 ```shell
 /Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh

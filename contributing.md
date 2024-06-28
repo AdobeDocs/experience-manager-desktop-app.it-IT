@@ -1,60 +1,61 @@
 ---
-source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '516'
-ht-degree: 2%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
-# Contributo alla documentazione relativa alle [!DNL Adobe Experience Manager] app desktop
+# Contribuire alla documentazione
 
-Grazie per aver scelto di contribuire alla [!DNL Adobe Experience Manager] documentazione dell&#39;app desktop! Accogliamo con favore i contributi forniti dall&#39;intera comunità di lettori e dai colleghi  Adobi.
+Grazie per aver scelto di contribuire alla documentazione. Adobe accoglie con favore i contributi offerti dalla nostra intera comunità di lettori e dai colleghi in Adobe.
 
-Questo file descrive come contribuire e indica le linee guida da seguire per apportare i contributi.
+Questo file descrive le modalità con cui è possibile apportare il proprio contributo e specifica le linee guida da seguire.
 
-## Codice di condotta open source  Adobe
+## Codice di condotta per open source Adobe
 
-Questo progetto ha adottato il [ codice di condotta open source Adobe](code-of-conduct.md). Contribuendo alla documentazione [!DNL Adobe Experience Manager], l&#39;utente accetta di aderire a questo codice di condotta. Segnalare un comportamento inaccettabile a [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Questo progetto ha adottato il [Codice di condotta per open source Adobe](code-of-conduct.md). Contribuendo alla documentazione di AEM si accetta implicitamente di aderire a questo codice di condotta. Segnala eventuali comportamenti inaccettabili all’indirizzo e-mail [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Linee guida per Contribute
+## Linee guida per contribuire
 
-Pur accogliendo favorevolmente qualsiasi contributo per migliorare la documentazione [!DNL Experience Manager], chiediamo che i contributi rispettino, ove possibile, determinate linee guida e determinati standard. Per ulteriori informazioni, consultare le [Linee guida per contribuire alla  [!DNL Experience Manager] Documentazione](guidelines.md).
+Anche se Adobe accoglie con favore qualsiasi contributo volto a migliorare la documentazione AEM, si assicura che i partecipanti rispettino, ove possibile, determinati standard e linee guida. Per ulteriori informazioni, consulta le [Linee guida per contribuire alla documentazione di AEM](guidelines.md).
 
 ## Come contribuire
 
-Desideriamo rendere il più semplice possibile la presentazione dei vostri contributi. Potete contribuire in due modi:
+Adobe desidera rendere la procedura per apportare il proprio contributo il più semplice possibile. È possibile contribuire in due modi:
 
-* [Creare un&#39;edizione](#create-an-issue)
+* [Segnalare un problema](#create-an-issue)
 * [Creare una richiesta pull](#create-a-pull-request)
 
-Il metodo scelto dipende dalla comodità con cui state modificando la documentazione in GitHub.
+Il metodo scelto dipende dal grado di familiarità con le procedure di modifica della documentazione in GitHub.
 
 >[!NOTE]
 >
->I contributi inviati sono coperti dalle [condizioni d&#39;uso  Adobe.](https://www.adobe.com/legal/terms.html)
+>I contributi inviati sono soggetti alle [condizioni d’uso di Adobe.](https://www.adobe.com/it/legal/terms.html)
 
-### Creare un problema {#create-an-issue}
+### Segnalare un problema {#create-an-issue}
 
-Hai un suggerimento, un&#39;osservazione sui documenti attuali, o hai dei dubbi sul modo in cui qualcosa viene descritto? Quindi create un problema. I problemi sono anche eccellenti se si ha qualcosa da contribuire, ma non sentirsi a proprio agio nel modificare i documenti o fare una richiesta pull.
+Desideri proporre un suggerimento o un’osservazione sulla documentazione corrente o segnalare un potenziale errore nella descrizione di una funzione? In questo caso puoi segnare un problema. Questa modalità è appropriata anche se intendi proporre un tuo contributo ma non hai familiarità con le procedure per modificare la documentazione o creare una richiesta.
 
-I problemi consentono di descrivere facilmente l&#39;idea di miglioramento dei documenti e un membro del team di [!DNL Experience Manager] documenti può esaminarla. È sufficiente fare clic sul collegamento **Registra un problema** nella parte superiore del pannello di navigazione a destra in qualsiasi pagina per creare un problema.
+La segnalazione di un problema consente di descrivere facilmente la tua proposta per migliorare la documentazione, che verrà esaminata da un membro del team addetto alla documentazione di AEM. A tale scopo, fai clic su **Segnala un problema** in alto nel riquadro di navigazione a destra di qualsiasi pagina.
 
 ### Creare una richiesta pull {#create-a-pull-request}
 
-Se si verifica un problema e si sa esattamente come risolverlo, è consigliabile creare una richiesta pull. Le richieste pull consentono di apportare le proprie modifiche alla documentazione, che vengono poi riviste da un membro del team di [!DNL Experience Manager] doc. È sufficiente fare clic sul collegamento **Modifica pagina** nella parte superiore del pannello di navigazione a destra in qualsiasi pagina per apportare le modifiche suggerite e creare la richiesta di pull.
+Se noti un problema e sai esattamente come correggerlo, puoi creare una richiesta. Le richieste pull ti consentono di apportare alla documentazione le modifiche desiderate. Un membro del team della documentazione di AEM esamina le modifiche proposte. A tale scopo, fai clic sul collegamento **Modifica questa pagina** in alto nel riquadro di navigazione a destra di qualsiasi pagina.
 
-Tutte le richieste di pull devono essere accompagnate da un contratto di licenza per i collaboratori [firmato o CLA.](https://opensource.adobe.com/cla.html) In tal modo è concesso ad Adobe il permesso di ridistribuire i contributi come parte del progetto. È sufficiente inviare un contratto di licenza di Adobe  una sola volta, quindi se ne hai già inoltrato uno in precedenza, puoi iniziare!
+Tutte le richieste pull devono avere un [Contratto di licenza per collaboratori (CLA)](https://opensource.adobe.com/cla.html) firmato. Tramite l’accordo CLA viene concesso ad Adobe il permesso di ridistribuire i contributi come parte del progetto. È sufficiente inviare un CLA di Adobe una sola volta; se lo hai già inviato in passato, non è necessario ripetere questa operazione.
 
-### Video introduttivo
+### Breve video introduttivo
 
-Guardate il seguente video per una rapida panoramica su come creare problemi e tirare le richieste.
+Nel video seguente viene brevemente illustrato come segnalare un problema e creare una richiesta.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
-### Contributi da  dipendenti Adobi
+### Contributi da dipendenti Adobe
 
-Se sei un dipendente  Adobe e hai un contributo, ti chiediamo di utilizzare l&#39;organizzazione `AdobeDocs` nel git aziendale. È possibile contribuire a questo repository pubblico su GitHub.com, ma i contributi sono più facili da elaborare sul repo aziendale. Assicuratevi che qualsiasi informazione proprietaria o non rilasciata sia discussa solo nel repo aziendale.  dipendenti del Adobe non devono firmare l’accordo di licenza.
+Se sei un dipendente di Adobe e desideri fornire un contributo, utilizza l’organizzazione `AdobeDocs` nell’archivio Git aziendale.
 
-## Informazioni  piattaforma di authoring GitHub  piattaforma e Markdown
+Adobe apprezza ogni contributo e rivede i contributi realizzati nell’archivio pubblico. Tuttavia, le richieste pull dei dipendenti Adobe sono più facili da elaborare e possono essere approvate più rapidamente nell’archivio aziendale. Assicurati che eventuali informazioni proprietarie vengano affrontate solo nell’archivio aziendale.
 
-Per ulteriori informazioni sull&#39;utilizzo della piattaforma di creazione GitHub, vedere la [ Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+## Ulteriori informazioni
+
+Per ulteriori informazioni su come utilizzare la piattaforma di authoring GitHub, consulta la [Guida per i collaboratori alla documentazione di Adobe](https://experienceleague.adobe.com/it/docs/contributor/contributor-guide/introduction).

@@ -2,22 +2,22 @@
 title: Installare e configurare l’app desktop v1.10
 description: Installare e configurare [!DNL Experience Manager] l’app desktop versione 1.10 per lavorare con [!DNL Assets] e mappare le risorse da montare come unità sul desktop.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Installare e configurare [!DNL Experience Manager] app desktop v1.10 {#install-and-configure-aem-desktop-app}
 
-Utilizzo di [!DNL Experience Manager] dell&#39;app desktop, le risorse in [!DNL Experience Manager] sono facilmente accessibili sul desktop locale e possono essere utilizzati in qualsiasi applicazione desktop. Le risorse possono essere facilmente rivelate in Mac Finder o Esplora risorse, aperte in applicazioni desktop e modificate localmente: le modifiche vengono salvate nuovamente in [!DNL Experience Manager] quando carichi e viene creata una nuova versione nell’archivio.
+Utilizzo di [!DNL Experience Manager] dell&#39;app desktop, le risorse in [!DNL Experience Manager] sono facilmente accessibili sul desktop locale e possono essere utilizzati in qualsiasi applicazione desktop. Assets può essere mostrato in Mac Finder o Esplora risorse, modificato nelle app desktop e le modifiche vengono salvate nuovamente in [!DNL Experience Manager], creando una nuova versione al momento del caricamento.
 
-Tale integrazione consente a vari ruoli dell’organizzazione di gestire centralmente le risorse in Assets e di accedervi nella Creative Cloud e in altre applicazioni, semplificando al contempo l’adesione ai vari standard, tra cui il branding.
+Questa integrazione consente a diversi ruoli di gestire centralmente le risorse all’interno dell’organizzazione in Assets, di accedervi in Creative Cloud e altre applicazioni e di conformarsi facilmente a vari standard, tra cui il branding.
 
-Da utilizzare [!DNL Experience Manager] app desktop,
+Per utilizzare [!DNL Experience Manager] app desktop,
 
-* Assicurati che il tuo [!DNL Experience Manager] versione del server supportata da [!DNL Experience Manager] app desktop. Consulta la [matrice di compatibilità](release-notes-of-v1.md#compatibilitymatrix).
+* Assicurati che il tuo [!DNL Experience Manager] versione del server compatibile con [!DNL Experience Manager] app desktop. Consulta la [matrice di compatibilità](release-notes-of-v1.md#compatibilitymatrix).
 
 * Scarica e installa l’applicazione.
 
@@ -53,21 +53,21 @@ Nella seconda fase, l’app desktop carica il file aggiornato in [!DNL Experienc
 >
 >[!DNL Experience Manager] L’app desktop può gestire risorse di dimensioni fino a 40 GB.
 
-## Connetti a un [!DNL Experience Manager] istanza dietro un dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
+## Connetti a un [!DNL Experience Manager] istanza dietro un Dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
-I metodi di copia e spostamento nell’API Assets richiedono la trasmissione delle seguenti intestazioni aggiuntive a [!DNL Experience Manager]:
+I metodi di copia e spostamento nell’API di Assets richiedono la trasmissione delle seguenti intestazioni aggiuntive a [!DNL Experience Manager]:
 
 * Destinazione X
 * Profondità X
 * X-Overwrite
 
-[!DNL Experience Manager] connessione desktop a [!DNL Experience Manager] utilizzando un URL che includa la porta predefinita. Pertanto, la `virtualhosts` l’impostazione nella configurazione del dispatcher deve includere il numero di porta predefinito. Per ulteriori informazioni su `virtualhosts` configurazione, vedi [identificare gli host virtuali](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+[!DNL Experience Manager] connessione desktop a [!DNL Experience Manager] utilizzando un URL che includa la porta predefinita. Pertanto, la `virtualhosts` l&#39;impostazione nella configurazione Dispatcher deve includere il numero di porta predefinito. Per ulteriori informazioni su `virtualhosts` configurazione, vedi [identificare gli host virtuali](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Per ulteriori informazioni sulla configurazione del dispatcher per passare attraverso queste intestazioni aggiuntive, vedi [Specifica delle intestazioni HTTP](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+Per ulteriori informazioni sulla configurazione di Dispatcher per il passaggio attraverso queste intestazioni aggiuntive, consulta [Specifica delle intestazioni HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Supporto proxy {#proxy-support}
 
-[!DNL Experience Manager] L’app desktop utilizza il proxy predefinito del sistema per la connessione a Internet tramite HTTPS. L&#39;app può connettersi solo utilizzando un proxy di rete che non richiede autenticazione aggiuntiva.
+Il [!DNL Experience Manager] L’app desktop utilizza il proxy predefinito del sistema per la connessione a Internet tramite HTTPS. L&#39;app può connettersi solo utilizzando un proxy di rete che non richiede autenticazione aggiuntiva.
 
 Se si configurano o si modificano le impostazioni del server proxy per Windows (Opzioni Internet > Impostazioni LAN), riavviare [!DNL Experience Manager] dell&#39;app desktop per rendere effettive le modifiche.
 
@@ -85,13 +85,13 @@ Potete personalizzare la finestra di dialogo Info risorsa sovrapponendo uno o en
 
 * HTL `/css/javascript` componente in `/libs/dam/gui/components/admin/moreinfo`.
 
-Quale componente è sovrapposto, dipende dalla natura della personalizzazione. Per modificare i componenti da visualizzare nella finestra di dialogo Informazioni risorsa, sovrapponi la pagina dell’interfaccia utente Granite. Per modificare il contenuto HTML, CSS o JavaScript della finestra di dialogo, sovrapponi il componente HTL.
+Quale componente viene sovrapposto dipende dalla natura della personalizzazione. Per modificare i componenti da visualizzare nella finestra di dialogo Informazioni risorsa, sovrapponi la pagina dell’interfaccia utente Granite. Per modificare il contenuto HTML, CSS o JavaScript della finestra di dialogo, sovrapponi il componente HTL.
 
 ## Gestisci cache {#manage-cache}
 
 In Windows, la cache si trova in `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, dove è una versione codificata del [!DNL Experience Manager] configurato nell&#39;app desktop. Ad esempio: `http://localhost:4502` viene visualizzato come `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-Su Mac OS X, una directory simile si trova in `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
+In macOS X, una directory simile si trova in `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
 
 ### Opzione in-app per gestire la cache {#in-app-option-to-manage-cache}
 
@@ -99,7 +99,7 @@ Su Mac OS X, una directory simile si trova in `~/Library/Group Containers/group.
 
 >[!NOTE]
 >
->Quando si cancella la cache, vengono mantenute le modifiche non salvate. Tutte le risorse non archiviate [!DNL Experience Manager] vengono mantenuti e non eliminati.
+>Quando si cancella la cache, vengono mantenute le modifiche non salvate. Tutte le risorse non archiviate in [!DNL Experience Manager] vengono mantenuti e non eliminati.
 
 ### Cambia la posizione della cache in Windows {#change-location-of-cache-on-windows}
 
@@ -109,13 +109,13 @@ La posizione predefinita della cache per [!DNL Experience Manager] L&#39;app des
 
 * In Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-`EncodedAEMEndpoint` è l’app configurata [!DNL Experience Manager] URL endpoint. Il valore è una versione codificata dell’URL di targeting del [!DNL Experience Manager] server. Ad esempio, se l’applicazione è il targeting `http://localhost:4502`, il nome della directory è `http%3A%2F%2Flocalhost%3A4502`. Il percorso Windows della directory cache in questo esempio è `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+Il `EncodedAEMEndpoint` è configurato per l’app [!DNL Experience Manager] URL endpoint. Il valore è una versione codificata dell’URL di targeting del [!DNL Experience Manager] server. Ad esempio, se l’applicazione è il targeting `http://localhost:4502`, il nome della directory è `http%3A%2F%2Flocalhost%3A4502`. Il percorso Windows della directory cache in questo esempio è `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Per puntare l&#39;applicazione a una cartella diversa o a un&#39;unità diversa, modificare il file di configurazione dell&#39;applicazione.
 
 1. Passa alla directory di installazione dell’app. Il percorso predefinito in Windows è `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
 
-1. Modificare il file Adobe Experience Manager Desktop.exe.config con un editor di testo.
+1. Modifica il `Adobe Experience Manager Desktop.exe.config` file con un editor di testo.
 
    Per salvare le modifiche apportate al file sono necessari privilegi di amministratore.
 
@@ -127,6 +127,6 @@ Per puntare l&#39;applicazione a una cartella diversa o a un&#39;unità diversa,
 
 >[!MORELIKETHIS]
 >
-* [Introduzione a [!DNL Experience Manager] app desktop](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* Osserva un [Introduzione a [!DNL Experience Manager] app desktop](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuti, 43 secondi).
 * [Utilizzare [!DNL Experience Manager] app desktop](use-app-v1.md).
 * [Risoluzione dei problemi [!DNL Experience Manager] app desktop](troubleshoot-app-v1.md).
