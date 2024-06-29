@@ -8,10 +8,10 @@ user-guide-description: Scopri come utilizzare l’app desktop Experience Manage
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 93%
+source-wordcount: '64'
+ht-degree: 59%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 93%
 
 + [Panoramica](introduction.md)
 + [Note sulla versione](release-notes.md)
-+ [Eseguire l’installazione o l’aggiornamento](install-upgrade.md)
-+ [Usare l’app](using.md)
++ [Installare o aggiornare](install-upgrade.md)
++ [Utilizzare l’app](using.md)
 + [Risoluzione dei problemi](troubleshoot.md)
 + Aiuto della versione precedente {#archive}
-   + [Note sulla versione (versione 1)](release-notes-of-v1.md)
-   + [Eseguire l’installazione o l’aggiornamento (versione 1)](install-configure-app-v1.md)
-   + [Usare l’app (versione 1)](use-app-v1.md)
-   + [Best practice (versione 1)](best-practices-for-v1.md)
-   + [Risolvere i problemi (versione 1)](troubleshoot-app-v1.md)
+   + [Note sulla versione v1](release-notes-of-v1.md)
+   + [Installare e configurare v1](install-configure-app-v1.md)
+   + [Utilizzare l’app v1](use-app-v1.md)
+   + [Best practice v1](best-practices-for-v1.md)
+   + [Risoluzione dei problemi v1](troubleshoot-app-v1.md)
