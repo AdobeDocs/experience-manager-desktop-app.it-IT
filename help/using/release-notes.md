@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Adobe Experience Manager] Note sulla versione dell’app desktop"
-description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibilità e collegamenti per il download di [!DNL Adobe Experience Manager] app desktop.
+title: "[!DNL Adobe Experience Manager] note sulla versione dell'app desktop"
+description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibilità e collegamenti per il download dell'app desktop  [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
@@ -11,7 +11,7 @@ ht-degree: 12%
 
 ---
 
-# [!DNL Adobe Experience Manager] Note sulla versione dell’app desktop {#release-notes-v2}
+# Note sulla versione dell&#39;app desktop [!DNL Adobe Experience Manager] {#release-notes-v2}
 
 Di seguito sono riportate le informazioni sulla versione dell’app desktop più recente versione 2.3.0. La data di rilascio è il 14 luglio 2023.
 
@@ -22,17 +22,17 @@ La versione più recente dell’app desktop include le correzioni e i migliorame
 * Supporto migliorato per proxy aziendali e filtro web.
 
 
-Il **supportato [!DNL Experience Manager] versioni** sono:
+Le **versioni supportate di [!DNL Experience Manager]** sono:
 
-* [!DNL Experience Manager] as a [!DNL Cloud Service]. Consulta [note sulla versione](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0 o successiva, su Adobe Managed Services (AMS) o On-Premise. Consulta [note sulla versione del service pack](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
+* [!DNL Experience Manager] come [!DNL Cloud Service]. Consulta le [note sulla versione](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] 6.5.0 o versione successiva, su Adobe Managed Services (AMS) o On-Premise. Consulta le [note sulla versione del service pack](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
 
-[!DNL Adobe Experience Manager] L’app desktop è disponibile per: **sistemi operativi**:
+L&#39;app desktop [!DNL Adobe Experience Manager] è disponibile per i seguenti **sistemi operativi**:
 
 * macOS X 10.14 o versione successiva, con le ultime correzioni di bug.
 * Windows 10 con Service Pack e correzioni di bug più recenti.
 
-Il **scarica URL** i sistemi operativi supportati sono:
+I **URL di download** per il sistema operativo supportato sono:
 
 | Sistema operativo | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
@@ -60,97 +60,97 @@ Il **scarica URL** i sistemi operativi supportati sono:
 
 ## Supporto per risorse e tipi di file diversi {#support-for-file-types}
 
-L’applicazione supporta le risorse memorizzate in [!DNL Experience Manager] che rappresentano il file binario per le operazioni di base. L’apertura di file nell’applicazione desktop nativa si basa sull’associazione del sistema operativo dei tipi di file specifici, come PNG o JPG, ad applicazioni specifiche, come Mac Preview o Adobe Photoshop.
+L&#39;applicazione supporta le risorse archiviate in [!DNL Experience Manager] che rappresentano il file binario per le operazioni di base. L’apertura di file nell’applicazione desktop nativa si basa sull’associazione del sistema operativo dei tipi di file specifici, come PNG o JPG, ad applicazioni specifiche, come Mac Preview o Adobe Photoshop.
 
-Alcuni tipi di file supportano il posizionamento di risorse collegate nel file binario. L’applicazione prescarica le risorse collegate se la risorsa è presente nel [!DNL Experience Manager] archivio quando tali file binari vengono aperti utilizzando l’app desktop. I tipi di file attualmente supportati sono:
+Alcuni tipi di file supportano il posizionamento di risorse collegate nel file binario. L&#39;applicazione prescarica le risorse collegate se la risorsa è presente nell&#39;archivio [!DNL Experience Manager] quando tali file binari vengono aperti tramite l&#39;app desktop. I tipi di file attualmente supportati sono:
 
 * [!DNL Adobe InDesign] file (formato INDD)
 * [!DNL Adobe Illustrator] file (formato AI)
 * [!DNL Adobe Photoshop] file (formato PS)
 
-La funzione è supportata con [!DNL Adobe Creative Cloud] 2018 e [!DNL Adobe Creative Cloud] Versioni 2019 dell’applicazione precedente. L’app utilizza un approccio euristico, basato sulla corrispondenza migliore, per mappare i percorsi desktop locali delle risorse collegate agli URL nel [!DNL Experience Manager] server. Si basa su alcuni presupposti descritti di seguito:
+La funzionalità è supportata con le versioni [!DNL Adobe Creative Cloud] 2018 e [!DNL Adobe Creative Cloud] 2019 dell&#39;applicazione precedente. L&#39;app utilizza un approccio euristico e di corrispondenza ottimale per mappare i percorsi desktop locali delle risorse collegate agli URL nel server [!DNL Experience Manager]. Si basa su alcuni presupposti descritti di seguito:
 
-* I percorsi dei file inseriti nell’applicazione nativa utilizzano un percorso desktop globale (inserito dalla condivisione di rete locale visualizzata con [!UICONTROL Reveal] opzionale).
+* I percorsi dei file inseriti nell&#39;applicazione nativa utilizzano un percorso desktop globale (inserito dalla condivisione di rete locale visualizzata con l&#39;opzione [!UICONTROL Reveal]).
 
 * I percorsi vengono memorizzati dall’app nativa nel record XMP del file.
 
 * [!DNL Experience Manager] ha estratto il record XMP con i percorsi del record di metadati della risorsa.
 
-* I percorsi possono corrispondere alle risorse in [!DNL Experience Manager], ovvero, anche i file inseriti sono in [!DNL Experience Manager] in un percorso corrispondente.
+* I percorsi possono corrispondere alle risorse in [!DNL Experience Manager], ovvero i file inseriti si trovano anche in [!DNL Experience Manager] in un percorso corrispondente.
 
 ## Nuove funzioni, miglioramenti e correzioni di bug {#what-is-new}
 
-Per informazioni, consulta [Novità della versione v2.0](introduction.md#whats-new-v2).
+Per ulteriori informazioni, vedere [Novità della versione v2.0](introduction.md#whats-new-v2).
 
-**Aggiornamenti nell’app v2.2.2**
+**Aggiornamenti nell&#39;app v2.2.2**
 
 * (Solo Windows) L’app desktop visualizza una schermata vuota dopo l’installazione delle versioni 2.2.0 e 2.2.1.
 
-**Aggiornamenti nell’app v2.2.1**
+**Aggiornamenti nell&#39;app v2.2.1**
 
-* L’app desktop visualizza un messaggio di errore di timeout della sessione quando fai clic su **[!UICONTROL Sign In]**.
+* L&#39;app desktop visualizza un messaggio di errore di timeout della sessione quando si fa clic su **[!UICONTROL Sign In]**.
 
 * Problemi durante l’accesso all’app desktop v2.2.0 su macOS.
 
-* L’app desktop visualizza un messaggio di errore quando ordini le risorse facendo clic su **[!UICONTROL Edited Locally]**.
+* L&#39;app desktop visualizza un messaggio di errore quando si ordinano le risorse facendo clic su **[!UICONTROL Edited Locally]**.
 
-**Aggiornamenti nell’app v2.2.0**
+**Aggiornamenti nell&#39;app v2.2.0**
 
 * Supporto per Apple Silicon (M1).
 
 * Possibilità di ricordare la stringa di connessione durante l&#39;accesso all&#39;app desktop.
 
-**Aggiornamenti nell’app v2.1.5.0**
+**Aggiornamenti nell&#39;app v2.1.5.0**
 
 * L’app desktop non risponde quando carichi i file in una cartella contenente caratteri cinesi (ASSETS-9237).
 
 * l&#39;app desktop sostituisce i punti con trattini nei nomi dei file (ASSETS-10955).
 
-**Aggiornamenti nell’app v2.1.4.0**
+**Aggiornamenti nell&#39;app v2.1.4.0**
 
 La nuova versione dell’applicazione offre correzioni di bug.
 
-**Aggiornamenti nell’app v2.1.3.4**
+**Aggiornamenti nell&#39;app v2.1.3.4**
 
 La nuova versione dell&#39;applicazione offre una correzione di bug.
 
-**Aggiornamenti nell’app v2.1.3.3**
+**Aggiornamenti nell&#39;app v2.1.3.3**
 
 La nuova versione dell&#39;applicazione offre una correzione di bug.
 
-**Aggiornamenti nell’app v2.1.3.2**
+**Aggiornamenti nell&#39;app v2.1.3.2**
 
 Questa versione dell&#39;applicazione offre una correzione di bug.
 
-**Aggiornamenti nell’app v2.1.3.1**
+**Aggiornamenti nell&#39;app v2.1.3.1**
 
 Il bug corretto in questa versione è:
 
-* Le velocità di caricamento e download delle risorse sono migliorate, anche con risorse di grandi dimensioni. Questa versione risolve un problema relativo al caricamento di risorse con [!DNL desktop app] talvolta non riuscite quando venivano caricati file di dimensioni molto grandi.
+* Le velocità di caricamento e download delle risorse sono migliorate, anche con risorse di grandi dimensioni. Questa versione ha risolto un problema che causava l&#39;errore di caricamento di risorse con [!DNL desktop app] in alcuni casi in cui venivano caricati file di dimensioni molto grandi.
 
-**Aggiornamento nell’app v2.1.2.0**
+**Aggiornamento nell&#39;app v2.1.2.0**
 
-* Una nuova opzione per [!UICONTROL Clear Cookies] viene aggiunto al menu principale dell’applicazione. Consente di risolvere i potenziali problemi di accesso, ad esempio quando si modifica una connessione da un server a un altro. Consulta [cancella i cookie prima della connessione](/help/using/troubleshoot.md#cannot-login-cookies-issue).
+* Una nuova opzione per [!UICONTROL Clear Cookies] è stata aggiunta al menu principale dell&#39;applicazione. Consente di risolvere i potenziali problemi di accesso, ad esempio quando si modifica una connessione da un server a un altro. Vedi [cancellare i cookie prima di connettersi](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
-* È stata aggiunta una nuova opzione che, se selezionata, consente all’app di caricare cartelle e file con nomi dei nodi in [!DNL Adobe Experience Manager] corrisponde ai nomi di file e cartelle locali. Questo processo garantisce la coerenza tra i nomi locali e quelli caricati.
+* È stata aggiunta una nuova opzione che, se selezionata, consente all&#39;app di caricare cartelle e file con nomi di nodo in [!DNL Adobe Experience Manager] corrispondenti ai nomi di file e cartelle locali. Questo processo garantisce la coerenza tra i nomi locali e quelli caricati.
 
-  Questo comportamento è simile a quello predefinito nella versione 1 dell’app desktop. Nella versione corrente, invece, se l’opzione non è abilitata, vengono visualizzati gli spazi vuoti e i caratteri `% ; # , + ? ^ { } "` nei nomi delle cartelle, vengono sostituiti da trattini nei percorsi delle cartelle. Inoltre, nei percorsi delle cartelle i caratteri maiuscoli vengono convertiti in minuscolo. Tuttavia, nei nomi dei file, i caratteri `# % { } ? &` vengono sostituiti con un trattino, ma vengono mantenuti gli spazi bianchi e l&#39;involucro. Per ulteriori informazioni, consulta [Preferenze app](/help/using/install-upgrade.md#set-preferences) e [Caricare e aggiungere nuove risorse](/help/using/using.md#upload-and-add-new-assets-to-aem).
+  Questo comportamento è simile a quello predefinito nella versione 1 dell’app desktop. Nella versione corrente, invece, se l&#39;opzione non è abilitata, gli spazi vuoti e i caratteri `% ; # , + ? ^ { } "` nei nomi delle cartelle vengono sostituiti con trattini nei percorsi delle cartelle. Inoltre, nei percorsi delle cartelle i caratteri maiuscoli vengono convertiti in minuscolo. Nei nomi dei file, tuttavia, i caratteri `# % { } ? &` vengono sostituiti con un trattino, ma gli spazi vuoti e le maiuscole vengono mantenuti. Per ulteriori informazioni, consulta [Preferenze app](/help/using/install-upgrade.md#set-preferences) e [Caricare e aggiungere nuove risorse](/help/using/using.md#upload-and-add-new-assets-to-aem).
 
-**Aggiornamento nell’app v2.1.1.0**
+**Aggiornamento nell&#39;app v2.1.1.0**
 
-* Un’impostazione avanzata consente all’app di emulare il comportamento dell’app v1.10 durante il caricamento delle cartelle. Nella versione 1.10, i nomi dei nodi creati nell’archivio rispettano gli spazi e le maiuscole/minuscole dei nomi delle cartelle forniti dall’utente. Nella versione 2.1, il comportamento predefinito è invariato: più spazi nei nomi delle cartelle vengono sostituiti da trattini nel nome del nodo dell’archivio e i nomi dei nodi vengono convertiti in minuscolo. Consulta [le preferenze dell’app](/help/using/install-upgrade.md#set-preferences).
+* Un’impostazione avanzata consente all’app di emulare il comportamento dell’app v1.10 durante il caricamento delle cartelle. Nella versione 1.10, i nomi dei nodi creati nell’archivio rispettano gli spazi e le maiuscole/minuscole dei nomi delle cartelle forniti dall’utente. Nella versione 2.1, il comportamento predefinito è invariato: più spazi nei nomi delle cartelle vengono sostituiti da trattini nel nome del nodo dell’archivio e i nomi dei nodi vengono convertiti in minuscolo. Consulta [le preferenze dell&#39;app](/help/using/install-upgrade.md#set-preferences).
 
-**Aggiornamento in app v2.1.0.0**
+**Aggiornamento nell&#39;app v2.1.0.0**
 
-* Per caricare le risorse, gli utenti possono ora trascinare i file o le cartelle sull’interfaccia dell’applicazione, direttamente da Esplora risorse o da Mac Finder. Questo processo funziona in aggiunta all’opzione di caricamento disponibile nell’applicazione. Consulta [caricare le risorse](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* Per caricare le risorse, gli utenti possono ora trascinare i file o le cartelle sull’interfaccia dell’applicazione, direttamente da Esplora risorse o da Mac Finder. Questo processo funziona in aggiunta all’opzione di caricamento disponibile nell’applicazione. Vedi [caricare le risorse](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**Aggiornamento in app v2.0.3**
+**Aggiornamento nell&#39;app v2.0.3**
 
 Il bug corretto in questa versione è:
 
-* È stato risolto il problema di accesso per gli utenti dell’app su Windows che tentavano di accedere all’archivio DAM il [!DNL Adobe Experience Manager] 6.5.5.0
+* È stato risolto il problema di accesso per gli utenti dell&#39;app su Windows che tentavano di accedere all&#39;archivio DAM in [!DNL Adobe Experience Manager] 6.5.5.0.
 
-**Aggiornamenti nell’app v2.0.2**
+**Aggiornamenti nell&#39;app v2.0.2**
 
 Le correzioni e gli aggiornamenti di bug sono:
 
@@ -164,33 +164,33 @@ Le correzioni e gli aggiornamenti di bug sono:
 
 * (Windows) È stato risolto un raro problema di interfaccia app inutilizzabile su alcuni computer Windows. Gli utenti non possono fare clic sull’interfaccia dell’app perché appare distorta con l’area di clic degli elementi dell’interfaccia &quot;spostati&quot; lateralmente. <!-- CQ-4280785 -->
 
-**Aggiornamenti nell’app v2.0.1**
+**Aggiornamenti nell&#39;app v2.0.1**
 
 Le correzioni e gli aggiornamenti di bug sono:
 
-* Consenti la configurazione dell’opzione `%Temp%` directory da associare `%APPDATA%` percorso. <!-- CQ-4282665 -->
+* Consenti all&#39;opzione di configurare la directory `%Temp%` affinché corrisponda al percorso `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Consenti agli utenti di accedere [!DNL Experience Manager] Autore tramite autenticazione Okta SAML. <!-- CQ-4278134 -->
+* Consenti agli utenti di accedere a [!DNL Experience Manager] Author tramite autenticazione Okta SAML. <!-- CQ-4278134 -->
 
 ## Istruzioni di installazione {#installation-instructions-v2}
 
-Per informazioni su come installare e configurare l’app, consulta [Installa [!DNL Experience Manager] app desktop](install-upgrade.md).
+Per informazioni su come installare e configurare l&#39;app, vedere [Installa [!DNL Experience Manager] app desktop](install-upgrade.md).
 
-Se si esegue l&#39;aggiornamento da un [!DNL Experience Manager] dell&#39;app desktop, è necessario seguire queste best practice per la transizione elencate in [aggiornamento dalla versione precedente](install-upgrade.md#upgrade-from-previous-version).
+Se aggiorni un&#39;app desktop [!DNL Experience Manager] precedente, segui le best practice per la transizione elencate in [aggiorna dalla versione precedente](install-upgrade.md#upgrade-from-previous-version).
 
 ## Note importanti sul funzionamento dell’app {#how-app-works}
 
 È importante essere a conoscenza delle informazioni seguenti relative all’applicazione e al relativo funzionamento.
 
-* L’applicazione offre il controllo completo sulle operazioni che richiedono il trasferimento completo dei dati binari delle risorse da e verso [!DNL Experience Manager] (**Apri**, **Modifica**, **Carica modifiche**, e **Carica Assets**).
+* L&#39;applicazione fornisce il controllo completo sulle operazioni che richiedono il trasferimento completo dei file binari delle risorse da e verso [!DNL Experience Manager] (**Apri**, **Modifica**, **Carica modifiche** e **Carica Assets**).
 
    * Se desideri utilizzare la risorsa sul desktop, devi selezionare in modo esplicito le opzioni Apri, Modifica o Scarica sul desktop singolarmente, in una cartella o tramite selezione multipla.
 
-   * Per apportare modifiche locali alle risorse caricate in [!DNL Experience Manager], è necessario selezionare [!UICONTROL Upload Changes], singolarmente o tramite selezione multipla.
+   * Se desideri apportare modifiche locali alle risorse caricate in [!DNL Experience Manager], devi selezionare [!UICONTROL Upload Changes], singolarmente o tramite selezione multipla.
 
-   * L’applicazione non è un &quot;client di sincronizzazione&quot; che sincronizza le risorse tra il desktop e [!DNL Experience Manager].
+   * L&#39;applicazione non è un &#39;client di sincronizzazione&#39; che sincronizza le risorse tra il desktop e [!DNL Experience Manager].
 
-   * L&#39;applicazione non fornisce una condivisione di rete che mappa [!DNL Experience Manager] come struttura di cartelle virtuali.
+   * L&#39;applicazione non fornisce una condivisione di rete che mappa l&#39;archivio [!DNL Experience Manager] come struttura di cartelle virtuali.
 
 * L’elenco delle risorse visualizzato dall’applicazione si basa sullo stato dell’archivio Assets. I file scaricati in locale e successivamente rinominati nei file locali o nella cartella della cache non vengono visualizzati o gestiti con l&#39;applicazione.
 
@@ -202,13 +202,13 @@ Se si esegue l&#39;aggiornamento da un [!DNL Experience Manager] dell&#39;app de
 
 Il diagramma seguente illustra il flusso di risorse e file dal cloud al file system locale e viceversa, in base alle azioni dell’utente.
 
-![Flusso di risorse da [!DNL Experience Manager] da server ad app desktop native tramite app desktop](assets/da20_flow_diagram.png)
+![Flusso delle risorse dal server [!DNL Experience Manager] alle app desktop native tramite l&#39;app desktop](assets/da20_flow_diagram.png)
 
 ## Problemi noti {#known-issues-v2}
 
 **Problemi relativi all’interfaccia utente:**
 
-* A volte, l’interfaccia dell’app desktop potrebbe diventare vuota. Fai clic con il pulsante destro del mouse e scegli [!UICONTROL Refresh] per ricaricare l&#39;applicazione. Dopo tale aggiornamento, inizi dalla directory principale dell’archivio DAM. Gli aggiornamenti o gli stati delle risorse vengono mantenuti. <!-- CQ-4270267 -->
+* A volte, l’interfaccia dell’app desktop potrebbe diventare vuota. Fare clic con il pulsante destro del mouse e scegliere [!UICONTROL Refresh] per ricaricare l&#39;applicazione. Dopo tale aggiornamento, inizi dalla directory principale dell’archivio DAM. Gli aggiornamenti o gli stati delle risorse vengono mantenuti. <!-- CQ-4270267 -->
 
 * È difficile spostarsi tra le cartelle e i risultati della ricerca senza il riquadro di rilevamento o il puntatore del mouse. La barra di scorrimento non viene visualizzata con mouse senza rotellina. <!-- CQ-4269947 -->
 
@@ -216,11 +216,11 @@ Il diagramma seguente illustra il flusso di risorse e file dal cloud al file sys
 
 * Dopo che l’utente applica e rimuove il filtro per trovare tutte le risorse modificate in locale, l’app non ritorna ai risultati della ricerca originale o alla vista cartelle in cui si trovava inizialmente l’utente. L’app visualizza la cartella principale dell’archivio DAM.
 
-* A volte, quando ci si connette a un URL che non ha un [!DNL Experience Manager] server in esecuzione, la schermata di connessione non risponde. Esci dall’applicazione e riavviala.
+* Talvolta, quando ci si connette a un URL in cui non è in esecuzione un server [!DNL Experience Manager], la schermata di connessione non risponde. Esci dall’applicazione e riavviala.
 
 **Problemi relativi a operazioni di creazione, lettura, aggiornamento ed eliminazione:**
 
-* Quando carichi le modifiche apportate a una risorsa con commenti, questi vengono memorizzati insieme alla risorsa in [!DNL Experience Manager] ma non sono visibili come commenti per il controllo delle versioni. Questo problema è stato risolto in [!DNL Experience Manager] 6.4.5 e [!DNL Experience Manager] 6.5.1. L’Adobe consiglia di installare i Service Pack più recenti. <!-- CQ-4268990 -->
+* Durante il caricamento di modifiche apportate a una risorsa con commenti, questi vengono memorizzati insieme alla risorsa in [!DNL Experience Manager] ma non sono visibili come commenti per il controllo delle versioni. Questo problema è stato risolto in [!DNL Experience Manager] 6.4.5 e [!DNL Experience Manager] 6.5.1. L’Adobe consiglia di installare i service pack più recenti. <!-- CQ-4268990 -->
 
 * Un utente non può annullare i trasferimenti di risorse. Se hai attivato per errore un trasferimento di grandi dimensioni, esci dall’applicazione e riavviala. <!-- CQ-4278940 -->
 
@@ -232,6 +232,6 @@ Il diagramma seguente illustra il flusso di risorse e file dal cloud al file sys
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentazione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentazione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/overview)
->* [Come usare [!DNL Experience Manager] app desktop](using.md)
+>* [Come usare [!DNL Experience Manager] l&#39;app desktop](using.md)
 >* [Installare e aggiornare l’app desktop](install-upgrade.md)
 >* [Best practice e suggerimenti per la risoluzione dei problemi](troubleshoot.md)
