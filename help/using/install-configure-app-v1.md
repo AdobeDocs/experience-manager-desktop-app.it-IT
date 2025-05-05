@@ -61,9 +61,9 @@ I metodi di copia e spostamento nell&#39;API di Assets richiedono il passaggio d
 * Profondità X
 * X-Overwrite
 
-Il desktop [!DNL Experience Manager] si connette a [!DNL Experience Manager] utilizzando un URL che include la porta predefinita. Pertanto, l&#39;impostazione `virtualhosts` nella configurazione Dispatcher deve includere il numero di porta predefinito. Per ulteriori informazioni sulla configurazione di `virtualhosts`, vedere [identificare gli host virtuali](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+Il desktop [!DNL Experience Manager] si connette a [!DNL Experience Manager] utilizzando un URL che include la porta predefinita. Pertanto, l&#39;impostazione `virtualhosts` nella configurazione Dispatcher deve includere il numero di porta predefinito. Per ulteriori informazioni sulla configurazione di `virtualhosts`, vedere [identificare gli host virtuali](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Per ulteriori informazioni sulla configurazione di Dispatcher per passare attraverso queste intestazioni aggiuntive, vedere [Specifica delle intestazioni HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Per ulteriori informazioni sulla configurazione di Dispatcher per passare attraverso queste intestazioni aggiuntive, vedere [Specifica delle intestazioni HTTP](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Supporto proxy {#proxy-support}
 
@@ -127,6 +127,6 @@ Per puntare l&#39;applicazione a una cartella diversa o a un&#39;unità diversa,
 
 >[!MORELIKETHIS]
 >
->* Guarda un [introduzione all&#39;app desktop](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuti, 43 secondi). [!DNL Experience Manager] 
+>* Guarda un [introduzione all&#39;app desktop](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuti, 43 secondi). [!DNL Experience Manager] 
 >* [Utilizza [!DNL Experience Manager] app desktop](use-app-v1.md).
 >* [Risoluzione dei problemi [!DNL Experience Manager] app desktop](troubleshoot-app-v1.md).

@@ -63,7 +63,7 @@ Le funzionalità principali dell’app desktop AEM includono:
 
 * Non utilizzare le unità di rete delle app desktop AEM per salvare frequentemente le risorse. Tutte le operazioni di salvataggio vengono trasmesse ad AEM Assets. Pertanto, non è pratico eseguire operazioni di modifica intensive direttamente nell’archivio AEM Assets montato. La modifica diretta di una risorsa nell’archivio montato genera nella timeline della risorsa versioni irrilevanti e impone costi generali aggiuntivi sul server.
 
-* Non utilizzare l’app desktop AEM per la migrazione di grandi quantità di dati da un’istanza AEM a un’altra. Consulta la [Guida alla migrazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) per pianificare ed eseguire le migrazioni delle risorse. L&#39;app desktop [supporta invece il caricamento in blocco](use-app-v1.md#bulkupload) di un numero elevato di risorse per la prima volta in [!DNL Adobe Experience Manager].
+* Non utilizzare l’app desktop AEM per la migrazione di grandi quantità di dati da un’istanza AEM a un’altra. Consulta la [Guida alla migrazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/assets-migration-guide) per pianificare ed eseguire le migrazioni delle risorse. L&#39;app desktop [supporta invece il caricamento in blocco](use-app-v1.md#bulkupload) di un numero elevato di risorse per la prima volta in [!DNL Adobe Experience Manager].
 
 ## Recommendations per casi d’uso selezionati {#recommendations-for-selected-use-cases}
 
@@ -119,7 +119,7 @@ Una buona esperienza utente con l’app desktop AEM si basa su una connettività
 
 ### Considerazioni sulla rete {#network-considerations}
 
-Per informazioni sulle best practice relative alla configurazione della rete AEM Assets, vai al documento [Come eseguire la migrazione in blocco delle risorse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide). Alcuni degli aspetti importanti che contribuiscono a ottimizzare l’esperienza dell’app desktop AEM per gli utenti includono:
+Per informazioni sulle best practice relative alla configurazione della rete AEM Assets, vai al documento [Come eseguire la migrazione in blocco delle risorse](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/assets-migration-guide). Alcuni degli aspetti importanti che contribuiscono a ottimizzare l’esperienza dell’app desktop AEM per gli utenti includono:
 
 * **Utilizza un Dispatcher** configurato correttamente. Utilizza il Dispatcher AEM per una sicurezza aggiuntiva e assicurati che sia configurato per la connessione dell&#39;app desktop [AEM all&#39;AEM dietro un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -131,8 +131,8 @@ Per informazioni sulle best practice relative alla configurazione della rete AEM
 
 ### Ottimizzazione delle prestazioni del server {#optimizing-server-performance}
 
-Per informazioni su come ottimizzare le prestazioni del server AEM Assets, vedere la [Guida all&#39;ottimizzazione delle prestazioni di AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Alcuni degli aspetti importanti delle prestazioni del server per l’app desktop AEM riguardano l’ottimizzazione della configurazione del flusso di lavoro per garantire prestazioni ottimali per il caricamento delle risorse:
+Per informazioni su come ottimizzare le prestazioni del server AEM Assets, vedere la [Guida all&#39;ottimizzazione delle prestazioni di AEM Assets](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Alcuni degli aspetti importanti delle prestazioni del server per l’app desktop AEM riguardano l’ottimizzazione della configurazione del flusso di lavoro per garantire prestazioni ottimali per il caricamento delle risorse:
 
-* **Caricamento di risorse più performante**. Configura il modello di flusso di lavoro [Aggiornamento risorse AEM come transitorio](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
+* **Caricamento di risorse più performante**. Configura il modello di flusso di lavoro [Aggiornamento risorse AEM come transitorio](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
 
 * **Limita CPU server per caricamenti**. Assicurati che il parametro relativo al numero massimo di processi del flusso di lavoro paralleli sia impostato correttamente, in modo che i caricamenti non esauriscano tutta la CPU.

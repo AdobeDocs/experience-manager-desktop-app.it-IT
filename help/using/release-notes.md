@@ -23,7 +23,7 @@ La versione più recente dell’app desktop include le correzioni e i migliorame
 
 Le **versioni supportate di [!DNL Experience Manager]** sono:
 
-* [!DNL Experience Manager] come [!DNL Cloud Service]. Consulta le [note sulla versione](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] come [!DNL Cloud Service]. Consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/home).
 * [!DNL Experience Manager] 6.5.0 o versione successiva, su Adobe Managed Services (AMS) o On-Premise. Consulta le [note sulla versione del service pack](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
 
 L&#39;app desktop [!DNL Adobe Experience Manager] è disponibile per i seguenti **sistemi operativi**:
