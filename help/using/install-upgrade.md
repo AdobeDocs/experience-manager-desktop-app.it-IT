@@ -3,9 +3,9 @@ title: Installare e configurare l’app desktop
 description: Installa e configura  [!DNL Adobe Experience Manager] l'app desktop per l'utilizzo con  [!DNL Adobe Experience Manager Assets] server e scarica le risorse nel file system locale.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per utilizzare l&#39;app desktop [!DNL Experience Manager]:
 
 * Scarica e installa l’applicazione. Consulta [installare l&#39;app desktop](#install-v2) di seguito.
 
-* Verifica la connessione utilizzando alcune risorse. Consulta [come sfogliare e cercare le risorse](using.md#browse-search-preview-assets).
+* Verifica la connessione utilizzando alcune risorse. Consulta [come sfogliare e cercare le risorse](search.md#browse-search-preview-assets).
 
 ## Requisiti di sistema, prerequisiti e collegamenti per il download {#tech-specs-v2}
 
@@ -52,7 +52,7 @@ Per effettuare l’aggiornamento da una versione precedente dell’app, segui qu
 
 ## Installa {#install-v2}
 
-Per installare l’app desktop, segui la procedura riportata di seguito. Disinstalla l&#39;app desktop di Adobe [!DNL Experience Manager] v1.x esistente prima di installare l&#39;app più recente. Per ulteriori informazioni, vedi sopra.
+Per installare l’app desktop, segui la procedura riportata di seguito. Disinstalla eventuali app desktop Adobe [!DNL Experience Manager] esistenti v1.x prima di installare l&#39;app più recente. Per ulteriori informazioni, vedi sopra.
 
 1. Scarica il programma di installazione più recente dalla pagina [note sulla versione](release-notes.md).
 
@@ -60,11 +60,11 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
 1. Se stai eseguendo l&#39;aggiornamento da un&#39;altra versione dell&#39;app, consulta [aggiornare l&#39;app desktop](#upgrade-from-previous-version).
 
-1. Ignora questo passaggio se utilizzi [!DNL Experience Manager] come [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o versione successiva oppure [!DNL Experience Manager] 6.5.0 o versione successiva. Assicurati che la tua configurazione di [!DNL Experience Manager] soddisfi i requisiti di compatibilità indicati nelle [note sulla versione](release-notes.md). Se necessario, scaricare il [pacchetto di compatibilità](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicabile e installarlo utilizzando Gestione pacchetti [!DNL Experience Manager] come amministratore [!DNL Experience Manager]. Per installare un pacchetto, vedere [Come utilizzare i pacchetti](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
+1. Ignora questo passaggio se utilizzi [!DNL Experience Manager] come [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o versione successiva oppure [!DNL Experience Manager] 6.5.0 o versione successiva. Assicurati che la tua configurazione di [!DNL Experience Manager] soddisfi i requisiti di compatibilità indicati nelle [note sulla versione](release-notes.md). Se necessario, scaricare il [pacchetto di compatibilità](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicabile e installarlo utilizzando Gestione pacchetti [!DNL Experience Manager] come amministratore [!DNL Experience Manager]. Per installare un pacchetto, vedere [Come utilizzare i pacchetti](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Eseguire il file binario del programma di installazione e seguire le istruzioni visualizzate per l&#39;installazione.
 
-1. In Windows, è possibile che venga richiesto di installare `Visual Studio C++ Redistributable 2015`. Seguire le istruzioni visualizzate sullo schermo per installarlo. Se l&#39;installazione non riesce, installarla manualmente. Scaricare il programma di installazione da [qui](https://www.microsoft.com/en-us/download/details.aspx?id=52685) e installare i file `vc_redist.x64.exe` e `vc_redist.x86.exe`. Rieseguire il programma di installazione dell&#39;app desktop [!DNL Experience Manager].
+1. In Windows, è possibile che venga richiesto di installare `Visual Studio C++ Redistributable 2015`. Seguire le istruzioni visualizzate sullo schermo per installarlo. Se l&#39;installazione non riesce, installarla manualmente. [Scaricare il programma di installazione](https://www.microsoft.com/en-us/download/details.aspx?id=52685) e installare i file `vc_redist.x64.exe` e `vc_redist.x86.exe`. Rieseguire il programma di installazione dell&#39;app desktop [!DNL Experience Manager].
 
 1. Riavviare il computer come richiesto. Avvia e configura l’app desktop.
 
@@ -84,7 +84,7 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
 1. [Facoltativo] Fare clic su **[!UICONTROL I want to connect a different way]** e su **[!UICONTROL Adobe login]** per accedere al server Experience Manager Assets utilizzando Adobe Identity Management Service (IMS). L’accesso IMS consente all’app desktop di eseguire automaticamente l’aggiornamento del token di accesso, consentendo all’utente di rimanere connesso per un massimo di 14 giorni. Fare clic su **[!UICONTROL Direct login]** per eseguire l&#39;accesso standard al server [!DNL Experience Manager] utilizzando le credenziali utente.
 
-   ![Accesso Adobe](assets/adobe-login.png)
+   ![Accesso ad Adobe](assets/adobe-login.png)
 
 1. Una volta stabilita la connessione, è possibile visualizzare l&#39;elenco delle cartelle e delle risorse disponibili nella cartella principale del DAM [!DNL Experience Manager]. Puoi sfogliare le cartelle dall’interno dell’app.
 
@@ -92,9 +92,9 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
    *Figura: l&#39;applicazione visualizza il contenuto DAM dopo l&#39;accesso*
 
-1. ([!DNL Experience Manager] 6.5.1 o versione successiva) Se si utilizza l&#39;app desktop con [!DNL Experience Manager] 6.5.1 o versione successiva, aggiornare il connettore S3 o Azure alla versione 1.10.4 o successiva. Vedere [Connettore Azure](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [Connettore S3](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o versione successiva) Se si utilizza l&#39;app desktop con [!DNL Experience Manager] 6.5.1 o versione successiva, aggiornare il connettore S3 o Azure alla versione 1.10.4 o successiva. Vedere [Connettore Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [Connettore S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
-   Se sei un cliente Adobe di Managed Services (AMS), contatta l’Assistenza clienti Adobe.
+   Se sei un cliente Adobe Managed Services (AMS), contatta l’Assistenza clienti Adobe.
 
 ## Impostare le preferenze {#set-preferences}
 
@@ -112,7 +112,7 @@ Per modificare le preferenze, fare clic su ![Icona altre opzioni](assets/do-not-
 
 * **[!UICONTROL Current cache size]**: dimensione di archiviazione delle risorse scaricate localmente. Le informazioni vengono visualizzate solo dopo il download delle risorse tramite l’app.
 
-* **[!UICONTROL Automatically download linked assets]**: quando si scarica il file originale, le risorse inserite nelle app di Creative Cloud native supportate vengono recuperate automaticamente.
+* **[!UICONTROL Automatically download linked assets]**: quando si scarica il file originale, le risorse inserite nelle app Creative Cloud native supportate vengono recuperate automaticamente.
 
 * **[!UICONTROL Maximum number of downloads]**: ![icona avviso](assets/do-not-localize/caution-icon.png) Cambia con cautela. Quando si scaricano le risorse per la prima volta (tramite l’opzione Mostra, Apri, Modifica, Scarica o simile), le risorse vengono scaricate solo se il batch contiene meno di questo numero. Il valore predefinito è 50. Non cambiare se non si è sicuri. L’aumento del valore può causare tempi di attesa più lunghi, mentre una riduzione di questo valore potrebbe impedire di scaricare tutte le risorse o cartelle necessarie in un unico tentativo.
 
@@ -140,7 +140,7 @@ Se il proxy richiede l&#39;autenticazione, il team IT può consentire l&#39;URL 
 
 Per disinstallare l&#39;applicazione in Windows, eseguire la procedura seguente:
 
-1. Carica tutte le modifiche in [!DNL Experience Manager] per evitare di perdere le modifiche. Consulta [Modifica risorse e carica risorse aggiornate in [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Disconnettersi e [!UICONTROL Exit] l&#39;app.
+1. Carica tutte le modifiche in [!DNL Experience Manager] per evitare di perdere le modifiche. Consulta [Modifica risorse e carica risorse aggiornate in [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets). Disconnettersi e [!UICONTROL Exit] l&#39;app.
 
 1. Rimuovi l’app come rimuoveresti qualsiasi altra applicazione del sistema operativo. Disinstallarlo da Aggiungi e rimuovi programmi in Windows.
 
@@ -152,7 +152,7 @@ Per disinstallare l&#39;applicazione in Windows, eseguire la procedura seguente:
 
 Per disinstallare l&#39;applicazione su Mac, eseguire la procedura seguente:
 
-1. Carica tutte le modifiche in [!DNL Experience Manager] per evitare di perdere le modifiche. Consulta [Modifica risorse e carica risorse aggiornate in [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Disconnettersi e [!UICONTROL Exit] l&#39;app.
+1. Carica tutte le modifiche in [!DNL Experience Manager] per evitare di perdere le modifiche. Consulta [Modifica risorse e carica risorse aggiornate in [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets). Disconnettersi e [!UICONTROL Exit] l&#39;app.
 
 1. Rimuovi `Adobe Experience Manager Desktop.app` da `/Applications`.
 

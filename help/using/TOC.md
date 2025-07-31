@@ -8,20 +8,27 @@ user-guide-description: Scopri come utilizzare l’app desktop Experience Manage
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 59%
+source-wordcount: '85'
+ht-degree: 48%
 
 ---
 
 
-# Guida dell’app desktop Adobe {#using}
+# Guida all’app desktop di Adobe Experience Manager {#get-started}
 
 + [Panoramica](introduction.md)
 + [Note sulla versione](release-notes.md)
 + [Installare o aggiornare](install-upgrade.md)
-+ [Utilizzare l’app](using.md)
++ [Introduzione all’app desktop AEM](get-started.md)
++ [Interfaccia utente](user-interface.md)
++ [Ricerca](search.md)
++ [Utilizzare l’app desktop](using-desktop-app.md)
++ [Gestione di Assets](assets-management-tasks.md)
++ [Scaricare le risorse](download-assets.md)
++ [Caricare le risorse](upload-assets.md)
++ [Utilizzo di più risorse](working-with-multiple-assets.md)
 + [Risoluzione dei problemi](troubleshoot.md)
 + Aiuto della versione precedente {#archive}
    + [Note sulla versione v1](release-notes-of-v1.md)

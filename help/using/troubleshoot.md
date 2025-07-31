@@ -1,8 +1,8 @@
 ---
-title: Best practice per l'app desktop e la risoluzione dei problemi [!DNL Adobe Experience Manager]
+title: 'Best practice per l''app desktop e la risoluzione dei problemi [!DNL Adobe Experience Manager] '
 description: Segui le best practice e risolvi eventuali problemi relativi all’installazione, all’aggiornamento, alla configurazione e così via.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Per evitare alcuni problemi comuni e la relativa risoluzione, attieniti alle seg
 
 * **Comprendere come funziona l&#39;app desktop**: prima di iniziare a utilizzare l&#39;applicazione, prova a conoscere il funzionamento dell&#39;app. Informazioni sui collegamenti tra l&#39;interfaccia Web di [!DNL Experience Manager] e il desktop, sulla mappatura dell&#39;archivio, sulla memorizzazione nella cache delle risorse, sul salvataggio locale e sul caricamento in background. Vedi [come funziona](release-notes.md#how-app-works).
 
-* **Evitare caratteri non supportati nei nomi delle cartelle**: non utilizzare spazi vuoti e caratteri non validi durante la creazione o il caricamento di cartelle. Visualizza un elenco di caratteri in [Crea cartelle in [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). I caratteri non supportati nel nome della cartella possono influire su alcuni casi d&#39;uso di [!DNL Experience Manager].
+* **Evitare caratteri non supportati nei nomi delle cartelle**: non utilizzare spazi vuoti e caratteri non validi durante la creazione o il caricamento di cartelle. Visualizza un elenco di caratteri in [Crea cartelle in [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). I caratteri non supportati nel nome della cartella possono influire su alcuni casi d&#39;uso di [!DNL Experience Manager].
 
-* **Best practice per evitare conflitti**: per evitare potenziali conflitti durante la collaborazione su più risorse, vai a [evitare conflitti di modifica](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **Best practice per evitare conflitti**: per evitare potenziali conflitti durante la collaborazione su più risorse, vai a [evitare conflitti di modifica](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Utilizza il caricamento delle cartelle per le cartelle gerarchiche di grandi dimensioni**: anziché utilizzare l&#39;interfaccia Web di Assets o altri metodi, utilizza l&#39;app desktop [!DNL Experience Manager] per caricare cartelle di grandi dimensioni. L’app carica le risorse in background con la registrazione e il monitoraggio. Consulta [risorse per caricamento in blocco](using.md#bulk-upload-assets).
+* **Utilizza il caricamento delle cartelle per le cartelle gerarchiche di grandi dimensioni**: anziché utilizzare l&#39;interfaccia Web di Assets o altri metodi, utilizza l&#39;app desktop [!DNL Experience Manager] per caricare cartelle di grandi dimensioni. L’app carica le risorse in background con la registrazione e il monitoraggio. Consulta [risorse per caricamento in blocco](using-desktop-app.md#bulk-upload-assets).
 
 * **Usa la versione più recente**: usa la versione più recente dell&#39;app. Verificare sempre la compatibilità prima di installare una nuova versione dell&#39;app o prima di eseguire l&#39;aggiornamento a una versione [!DNL Experience Manager] più recente. Consulta le [note sulla versione](release-notes.md).
 
@@ -39,7 +39,7 @@ Per evitare alcuni problemi comuni e la relativa risoluzione, attieniti alle seg
 
 ## Come risolvere i problemi {#troubleshooting-prep}
 
-Per risolvere i problemi relativi all’app desktop, tieni presente le seguenti informazioni. Inoltre, ti prepara a segnalare meglio i problemi all’Assistenza clienti Adobe se scegli di richiedere assistenza.
+Per risolvere i problemi relativi all’app desktop, tieni presente le seguenti informazioni. Inoltre, se scegli di richiedere assistenza, ti prepara a trasmettere meglio i problemi all’Assistenza clienti di Adobe.
 
 ### Percorso dei file di registro {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Quando si caricano molte risorse, se alcuni file non vengono caricati, vedere il
 
 >[!NOTE]
 >
->Quando lavori con l’Assistenza clienti Adobe per una richiesta di supporto o un ticket, ti può essere chiesto di condividere i file di registro per aiutare il team di Assistenza clienti a comprendere il problema. Archivia l&#39;intera cartella `Logs` e condividila con il contatto dell&#39;Assistenza clienti.
+>Quando si collabora con l’Assistenza clienti di Adobe per una richiesta o un ticket di supporto, è possibile richiedere di condividere i file di registro per aiutare il team di Assistenza clienti a comprendere il problema. Archivia l&#39;intera cartella `Logs` e condividila con il contatto dell&#39;Assistenza clienti.
 
 ### Cambia il livello di dettagli nei file di registro {#level-of-details-in-log}
 
@@ -301,8 +301,8 @@ In entrambi i metodi, l’app inizia dalla cartella DAM principale.
 
 Durante l&#39;esplorazione delle risorse dall&#39;interfaccia utente [!DNL Experience Manager], le risorse scadute non vengono visualizzate. Gli amministratori possono configurare le impostazioni per impedire la visualizzazione, la ricerca e il recupero delle risorse scadute durante la navigazione dall’app desktop e da Asset Link. In questo modo, le risorse scadute non saranno accessibili durante queste operazioni. La configurazione funziona per tutti gli utenti, indipendentemente dal privilegio di amministratore.
 
-* [Configurazione nell&#39;Experience Manager 6.5 per nascondere le risorse scadute](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [Configurazione nell&#39;Experience Manager as a Cloud Service per nascondere le risorse scadute](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [Configurazione in Experience Manager 6.5 per nascondere le risorse scadute](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [Configurazione in Experience Manager as a Cloud Service per nascondere le risorse scadute](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
@@ -325,4 +325,4 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [Problemi noti](release-notes.md#known-issues-v2)
->* [Evita di modificare i conflitti](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [Evita di modificare i conflitti](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)
