@@ -4,9 +4,9 @@ description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibili
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2502'
 ht-degree: 9%
 
 ---
@@ -15,25 +15,55 @@ ht-degree: 9%
 
 Di seguito sono riportate le informazioni sulla versione dell’app desktop più recente versione 3.0.0. La data di rilascio è il 31 luglio 2025.
 
-La versione più recente dell’app desktop include le correzioni e i miglioramenti seguenti:
+Questa versione offre diversi miglioramenti a Raccolte, Caricamenti, Check-in/Check-out, Gestione dei metadati e usabilità complessiva. Questi aggiornamenti migliorano l’efficienza, semplificano la gestione delle risorse e forniscono un’esperienza più intuitiva e in tempo reale nell’app desktop AEM.
+
+![Interfaccia utente app desktop](assets/dekktop-app-user-interface.png)
+
+**Raccolte**
+
+* Ora puoi visualizzare, scaricare e sfogliare le raccolte.
+
+* È stato aggiunto il supporto per il download delle cartelle disponibili all’interno delle raccolte.
+
+* La funzione di sincronizzazione automatica ora consente alle risorse scaricate all’interno delle raccolte di sincronizzare periodicamente la gestione delle risorse di AEM con il file system locale.
+
+* Quando aggiorni una risorsa che fa parte di una raccolta, il sistema la aggiorna automaticamente nella cartella della cache temporanea e nell’interfaccia utente dell’app desktop.
+
+**Caricamenti**
 
 * Puoi caricare le nuove risorse create dal computer locale in AEM, dove è memorizzato l’archivio centrale, e visualizzarle nell’app desktop.
-* La funzione di aggiornamento automatico aggiorna automaticamente i contenuti in tempo reale, assicurandoti di visualizzare sempre le informazioni più recenti senza ricaricare manualmente la pagina e ottenere l’elenco delle risorse aggiornate.
-* La funzione di fissaggio o sblocco delle cartelle consente di mantenere facilmente accessibili importanti cartelle fissandole o di annullare la visualizzazione sbloccandole quando non sono più necessarie.
-* La funzione Rinomina titolo consente di aggiornare o modificare facilmente il titolo di una risorsa, consentendoti di mantenere i nomi precisi e organizzati in base all’evoluzione del contenuto.
-* È possibile mantenere il file originale e apportare modifiche a uno simile duplicando i file in percorsi locali e cloud utilizzando l&#39;operazione di duplicazione dei file.
-* La funzione di archiviazione ed estrazione consente di gestire l&#39;accesso ai file bloccando un file per la modifica (estrazione) e il salvataggio delle modifiche e rendendolo disponibile ad altri utenti (archiviazione).
-* Puoi visualizzare, scaricare e sfogliare le raccolte.
-* Puoi assegnare i metadati durante la creazione di una nuova cartella.
-* L’app desktop Experience Manager ora consente di spostare risorse o cartelle in una nuova posizione, preservando al contempo i metadati, per organizzare e semplificare il file system.
-* È stato aggiunto il supporto per il download delle cartelle disponibili all’interno delle raccolte.
-* L’opzione di esportazione ora consente di scaricare i file e le cartelle selezionati dall’app desktop nella posizione di destinazione specifica in una struttura semplice.
+
 * L’app desktop ora identifica automaticamente i nuovi file creati in una cartella già scaricata sul file system locale e li carica in AEM. Per identificare i nuovi file nel file system locale, è necessario mantenere aperta l’app desktop.
-* La funzione di sincronizzazione automatica ora consente alle risorse scaricate all’interno delle raccolte di sincronizzare periodicamente la gestione delle risorse di AEM con il file system locale.
-* AEM Desktop App ora consente di visualizzare le proprietà della cartella, come la miniatura della cartella, le dimensioni, il percorso, la data di creazione, i tag, i metadati e così via.
-* Ora è possibile accedere alle risorse in Vista a schede, Vista a griglia o Vista a struttura per ottenere un layout delle risorse pulito, organizzato e visivamente accattivante.
+
+**Archiviazione ed estrazione**
+
+* La funzione di archiviazione ed estrazione consente di gestire l&#39;accesso ai file bloccando un file per la modifica (estrazione) e il salvataggio delle modifiche e rendendolo disponibile ad altri utenti (archiviazione).
+
 * Possibilità di trascinare una risorsa dall’app desktop all’applicazione Creative Cloud di destinazione. L’app desktop estrae automaticamente le risorse e le scarica nel file system locale.
-* Quando aggiorni una risorsa che fa parte di una raccolta, il sistema la aggiorna automaticamente nella cartella della cache temporanea e nell’interfaccia utente dell’app desktop.
+
+**Metadati**
+
+* Puoi assegnare i metadati durante la creazione di una nuova cartella.
+
+* L’app desktop Experience Manager ora consente di spostare risorse o cartelle in una nuova posizione, preservando al contempo i metadati, per organizzare e semplificare il file system.
+
+* AEM Desktop App ora consente di visualizzare le proprietà della cartella, come la miniatura della cartella, le dimensioni, il percorso, la data di creazione, i tag, i metadati e così via.
+
+**Miglioramenti all&#39;usabilità**
+
+
+* La funzione di aggiornamento automatico aggiorna automaticamente i contenuti in tempo reale, assicurandoti di visualizzare sempre le informazioni più recenti senza ricaricare manualmente la pagina e ottenere l’elenco delle risorse aggiornate.
+
+* La funzione di fissaggio o sblocco delle cartelle consente di mantenere facilmente accessibili importanti cartelle fissandole o di annullare la visualizzazione sbloccandole quando non sono più necessarie.
+
+* La funzione Rinomina titolo consente di aggiornare o modificare facilmente il titolo di una risorsa, consentendoti di mantenere i nomi precisi e organizzati in base all’evoluzione del contenuto.
+
+* È possibile mantenere il file originale e apportare modifiche a uno simile duplicando i file in percorsi locali e cloud utilizzando l&#39;operazione di duplicazione dei file.
+
+* L’opzione di esportazione ora consente di scaricare i file e le cartelle selezionati dall’app desktop nella posizione di destinazione specifica in una struttura semplice.
+
+* Ora è possibile accedere alle risorse in Vista a schede, Vista a griglia o Vista a struttura per ottenere un layout delle risorse pulito, organizzato e visivamente accattivante.
+
 * Nell’interfaccia utente vengono aggiornate diverse etichette per varie opzioni per rendere l’applicazione più intuitiva.
 
 Le **versioni supportate di [!DNL Experience Manager]** sono:
