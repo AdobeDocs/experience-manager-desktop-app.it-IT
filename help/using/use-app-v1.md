@@ -18,7 +18,7 @@ Questa integrazione consente la gestione centralizzata delle risorse e l&#39;acc
 
 Le attività chiave eseguite con l&#39;app desktop [!DNL Experience Manager] v1 includono:
 
-1. [Connetti con un server  [!DNL Experience Manager] ](#installandconnect)
+1. [Connetti con un server  [!DNL Experience Manager] &#x200B;](#installandconnect)
 1. [Aprire le risorse direttamente nell’app desktop](#openondesktop)
 1. [Modificare ed estrarre le risorse dall’app desktop](#workonassets)
 1. [Caricare risorse e cartelle in blocco](#bulkupload)

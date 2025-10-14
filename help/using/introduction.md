@@ -31,7 +31,7 @@ La documentazione dell’app desktop contiene informazioni relative ai seguenti 
 | Usi già l’app desktop, vuoi aggiornarla e passare senza problemi alla nuova versione? | [Eseguire l’aggiornamento dalla versione precedente](install-upgrade.md#upgrade-from-previous-version) |
 | Sei pronto per iniziare e vuoi modificare le preferenze predefinite? | [Installare e configurare l’app](install-upgrade.md) |
 | Vuoi scoprire come utilizzare l’app per sfogliare, individuare, modificare, caricare, risolvere i conflitti, eseguire operazioni in serie e così via? | [Usa [!DNL Experience Manager] app desktop](using-desktop-app.md) |
-| Si sta verificando un problema? | [Risoluzione dei problemi relativi all&#39;app desktop [!DNL Experience Manager] ](troubleshoot.md) |
+| Si sta verificando un problema? | [Risoluzione dei problemi relativi all&#39;app desktop [!DNL Experience Manager] &#x200B;](troubleshoot.md) |
 
 ## Novità dell’app {#whats-new-v2}
 
