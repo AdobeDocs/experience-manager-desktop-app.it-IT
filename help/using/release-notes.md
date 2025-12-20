@@ -1,70 +1,35 @@
 ---
 title: Note sulla versione dell'app desktop [!DNL Adobe Experience Manager]
-description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibilità e collegamenti per il download dell'app desktop  [!DNL Adobe Experience Manager] .
+description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibilità e collegamenti di download per  [!DNL Adobe Experience Manager] App desktop.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 9%
+source-wordcount: '2662'
+ht-degree: 8%
 
 ---
 
 # Note sulla versione dell&#39;app desktop [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Di seguito sono riportate le informazioni sulla versione dell’app desktop più recente versione 3.0.0. La data di rilascio è il 31 luglio 2025.
+La data di rilascio dell’app desktop versione 3.0.1 è il 18 dicembre 2025.  La versione include i seguenti miglioramenti:
 
-Questa versione offre diversi miglioramenti a Raccolte, Caricamenti, Check-in/Check-out, Gestione dei metadati e usabilità complessiva. Questi aggiornamenti migliorano l’efficienza, semplificano la gestione delle risorse e forniscono un’esperienza più intuitiva e in tempo reale nell’app desktop AEM.
+**Flussi di lavoro più fluidi e affidabili**
 
-![Interfaccia utente app desktop](assets/dekktop-app-user-interface.png)
+* È stata garantita una denominazione coerente delle cartelle correggendo i problemi di sincronizzazione tra l’app desktop AEM e AEM Author.
+* Abilitazione di flussi di lavoro ininterrotti grazie alla piena funzionalità dell&#39;applicazione durante le operazioni di trasferimento attive.
+* È stata migliorata l’affidabilità della pagina delle proprietà della cartella, consentendo un accesso coerente ai metadati e alle impostazioni della cartella.
 
-**Raccolte**
+**Esperienza utente più veloce e reattiva**
 
-* Ora puoi visualizzare, scaricare e sfogliare le raccolte.
+* È stata migliorata la reattività dell’interfaccia utente sostituendo l’I/O di blocco con l’elaborazione asincrona, offrendo un’esperienza più fluida durante le operazioni con carichi elevati.
+* Sono stati migliorati i trasferimenti di file di grandi dimensioni introducendo l’impaginazione nei flussi di caricamento e download, consentendo una gestione efficiente di set di dati di grandi dimensioni.
 
-* È stato aggiunto il supporto per il download delle cartelle disponibili all’interno delle raccolte.
+**Maggiore stabilità e affidabilità**
 
-* La funzione di sincronizzazione automatica ora consente alle risorse scaricate all’interno delle raccolte di sincronizzare periodicamente la gestione delle risorse di AEM con il file system locale.
-
-* Quando aggiorni una risorsa che fa parte di una raccolta, il sistema la aggiorna automaticamente nella cartella della cache temporanea e nell’interfaccia utente dell’app desktop.
-
-**Caricamenti**
-
-* Puoi caricare le nuove risorse create dal computer locale in AEM, dove è memorizzato l’archivio centrale, e visualizzarle nell’app desktop.
-
-* L’app desktop ora identifica automaticamente i nuovi file creati in una cartella già scaricata sul file system locale e li carica in AEM. Per identificare i nuovi file nel file system locale, è necessario mantenere aperta l’app desktop.
-
-**Archiviazione ed estrazione**
-
-* La funzione di archiviazione ed estrazione consente di gestire l&#39;accesso ai file bloccando un file per la modifica (estrazione) e il salvataggio delle modifiche e rendendolo disponibile ad altri utenti (archiviazione).
-
-* Possibilità di trascinare una risorsa dall’app desktop all’applicazione Creative Cloud di destinazione. L’app desktop estrae automaticamente le risorse e le scarica nel file system locale.
-
-**Metadati**
-
-* Puoi assegnare i metadati durante la creazione di una nuova cartella.
-
-* L’app desktop Experience Manager ora consente di spostare risorse o cartelle in una nuova posizione, preservando al contempo i metadati, per organizzare e semplificare il file system.
-
-* AEM Desktop App ora consente di visualizzare le proprietà della cartella, come la miniatura della cartella, le dimensioni, il percorso, la data di creazione, i tag, i metadati e così via.
-
-**Miglioramenti all&#39;usabilità**
-
-
-* La funzione di aggiornamento automatico aggiorna automaticamente i contenuti in tempo reale, assicurandoti di visualizzare sempre le informazioni più recenti senza ricaricare manualmente la pagina e ottenere l’elenco delle risorse aggiornate.
-
-* La funzione di fissaggio o sblocco delle cartelle consente di mantenere facilmente accessibili importanti cartelle fissandole o di annullare la visualizzazione sbloccandole quando non sono più necessarie.
-
-* La funzione Rinomina titolo consente di aggiornare o modificare facilmente il titolo di una risorsa, consentendoti di mantenere i nomi precisi e organizzati in base all’evoluzione del contenuto.
-
-* È possibile mantenere il file originale e apportare modifiche a uno simile duplicando i file in percorsi locali e cloud utilizzando l&#39;operazione di duplicazione dei file.
-
-* L’opzione di esportazione ora consente di scaricare i file e le cartelle selezionati dall’app desktop nella posizione di destinazione specifica in una struttura semplice.
-
-* Ora è possibile accedere alle risorse in Vista a schede, Vista a griglia o Vista a struttura per ottenere un layout delle risorse pulito, organizzato e visivamente accattivante.
-
-* Nell’interfaccia utente vengono aggiornate diverse etichette per varie opzioni per rendere l’applicazione più intuitiva.
+* Il server Author risolto viene riavviato in seguito alle interazioni dell’app desktop, migliorando in modo significativo la stabilità del sistema.
+* L’applicazione gestita si blocca durante il download o il caricamento di una cartella di grandi dimensioni (migliaia di file).
 
 Le **versioni supportate di [!DNL Experience Manager]** sono:
 
@@ -82,6 +47,10 @@ I **URL di download** per il sistema operativo supportato sono:
 
 | Sistema operativo | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| Silicio macOS Apple (M1) (v3.0.1) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows a 64 bit (v3.0.1) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows Enterprise a 64 bit (v3.0.1) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | Silicio macOS Apple (M1) (v3.0.0) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows a 64 bit (v3.0.0) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ La funzionalità è supportata con le versioni [!DNL Adobe Creative Cloud] 2018 
 
 ## Nuove funzioni, miglioramenti e correzioni di bug {#what-is-new}
 
-Per ulteriori informazioni, vedere [Novità della versione v2.0](introduction.md#whats-new-v2).
+Per ulteriori informazioni, vedere [Novità della versione v3.0.1](introduction.md#whats-new-v2).
 
-**Aggiornamenti nell&#39;app v2.3.1**
+### Aggiornamenti nell’app v3.0.0 {#app-version-3.0.0}
+
+Questa versione offre diversi miglioramenti a Raccolte, Caricamenti, Check-in/Check-out, Gestione dei metadati e usabilità complessiva. Questi aggiornamenti migliorano l’efficienza, semplificano la gestione delle risorse e forniscono un’esperienza più intuitiva e in tempo reale nell’app desktop AEM.
+
+![Interfaccia utente app desktop](assets/dekktop-app-user-interface.png)
+
+**Raccolte**
+
+* Ora puoi visualizzare, scaricare e sfogliare le raccolte.
+
+* È stato aggiunto il supporto per il download delle cartelle disponibili all’interno delle raccolte.
+
+* La funzione di sincronizzazione automatica ora consente alle risorse scaricate all’interno delle raccolte di sincronizzare periodicamente la gestione delle risorse di AEM con il file system locale.
+
+* Quando aggiorni una risorsa che fa parte di una raccolta, il sistema la aggiorna automaticamente nella cartella della cache temporanea e nell’interfaccia utente dell’app desktop.
+
+**Caricamenti**
+
+* Puoi caricare le nuove risorse create dal computer locale in AEM, dove è memorizzato l’archivio centrale, e visualizzarle nell’app desktop.
+
+* L’app desktop ora identifica automaticamente i nuovi file creati in una cartella già scaricata sul file system locale e li carica in AEM. Per identificare i nuovi file nel file system locale, è necessario mantenere aperta l’app desktop.
+
+**Archiviazione ed estrazione**
+
+* La funzione di archiviazione ed estrazione consente di gestire l&#39;accesso ai file bloccando un file per la modifica (estrazione) e il salvataggio delle modifiche e rendendolo disponibile ad altri utenti (archiviazione).
+
+* Possibilità di trascinare una risorsa dall’app desktop all’applicazione Creative Cloud di destinazione. L’app desktop estrae automaticamente le risorse e le scarica nel file system locale.
+
+**Metadati**
+
+* Puoi assegnare i metadati durante la creazione di una nuova cartella.
+
+* L’app desktop Experience Manager ora consente di spostare risorse o cartelle in una nuova posizione, preservando al contempo i metadati, per organizzare e semplificare il file system.
+
+* AEM Desktop App ora consente di visualizzare le proprietà della cartella, come la miniatura della cartella, le dimensioni, il percorso, la data di creazione, i tag, i metadati e così via.
+
+**Miglioramenti all&#39;usabilità**
+
+* La funzione di aggiornamento automatico aggiorna automaticamente i contenuti in tempo reale, assicurandoti di visualizzare sempre le informazioni più recenti senza ricaricare manualmente la pagina e ottenere l’elenco delle risorse aggiornate.
+
+* La funzione di fissaggio o sblocco delle cartelle consente di mantenere facilmente accessibili importanti cartelle fissandole o di annullare la visualizzazione sbloccandole quando non sono più necessarie.
+
+* La funzione Rinomina titolo consente di aggiornare o modificare facilmente il titolo di una risorsa, consentendoti di mantenere i nomi precisi e organizzati in base all’evoluzione del contenuto.
+
+* È possibile mantenere il file originale e apportare modifiche a uno simile duplicando i file in percorsi locali e cloud utilizzando l&#39;operazione di duplicazione dei file.
+
+* L’opzione di esportazione ora consente di scaricare i file e le cartelle selezionati dall’app desktop nella posizione di destinazione specifica in una struttura semplice.
+
+* Ora è possibile accedere alle risorse in Vista a schede, Vista a griglia o Vista a struttura per ottenere un layout delle risorse pulito, organizzato e visivamente accattivante.
+
+* Nell’interfaccia utente vengono aggiornate diverse etichette per varie opzioni per rendere l’applicazione più intuitiva.
+
+### Aggiornamenti nell’app v2.3.1 {#app-version-2.3.1}
 
 * Il nuovo programma di installazione di Enterprise Windows installa l&#39;applicazione in Programmi.
 * Supporto per l&#39;**autenticazione di base** durante gli accessi AEM e SSO.
 * Numero configurabile di risorse consentito durante l’operazione di caricamento
 
-**Aggiornamenti nell&#39;app v2.3.0**
+### Aggiornamenti nell’app v2.3.0 {#app-version-2.3.0}
 
 * È stato aggiunto il supporto per l’accesso IMS. L’integrazione IMS consente all’app desktop di eseguire automaticamente l’aggiornamento del token di accesso, consentendo all’utente di rimanere connesso per un massimo di 14 giorni.
 
 * Supporto migliorato per proxy aziendali e filtro web.
 
-**Aggiornamenti nell&#39;app v2.2.2**
+### Aggiornamenti nell’app v2.2.2 {#app-version-2.2.2}
 
 * (Solo Windows) L’app desktop visualizza una schermata vuota dopo l’installazione delle versioni 2.2.0 e 2.2.1.
 
-**Aggiornamenti nell&#39;app v2.2.1**
+### Aggiornamenti nell’app v2.2.1 {#app-version-2.2.1}
 
 * L&#39;app desktop visualizza un messaggio di errore di timeout della sessione quando si fa clic su **[!UICONTROL Sign In]**.
 
@@ -164,41 +185,41 @@ Per ulteriori informazioni, vedere [Novità della versione v2.0](introduction.md
 
 * L&#39;app desktop visualizza un messaggio di errore quando si ordinano le risorse facendo clic su **[!UICONTROL Edited Locally]**.
 
-**Aggiornamenti nell&#39;app v2.2.0**
+### Aggiornamenti nell’app v2.2.0 {#app-version-2.2.0}
 
 * Supporto per Apple Silicon (M1).
 
 * Possibilità di ricordare la stringa di connessione durante l&#39;accesso all&#39;app desktop.
 
-**Aggiornamenti nell&#39;app v2.1.5.0**
+### Aggiornamenti nell’app v2.1.5.0 {#app-version-2.1.5.0}
 
 * L’app desktop non risponde quando carichi i file in una cartella contenente caratteri cinesi (ASSETS-9237).
 
-* l&#39;app desktop sostituisce i punti con trattini nei nomi dei file (ASSETS-10955).
+* L&#39;app desktop sostituisce i punti con trattini nei nomi dei file (ASSETS-10955).
 
-**Aggiornamenti nell&#39;app v2.1.4.0**
+### Aggiornamenti nell’app v2.1.4.0 {#app-version-2.1.4.0}
 
 La nuova versione dell’applicazione offre correzioni di bug.
 
-**Aggiornamenti nell&#39;app v2.1.3.4**
+### Aggiornamenti nell’app v2.1.3.4 {#app-version-2.1.3.4}
 
 La nuova versione dell&#39;applicazione offre una correzione di bug.
 
-**Aggiornamenti nell&#39;app v2.1.3.3**
+### Aggiornamenti nell’app v2.1.3.3 {#app-version-2.1.3.3}
 
 La nuova versione dell&#39;applicazione offre una correzione di bug.
 
-**Aggiornamenti nell&#39;app v2.1.3.2**
+### Aggiornamenti nell’app v2.1.3.2 {#app-version-2.1.3.2}
 
 Questa versione dell&#39;applicazione offre una correzione di bug.
 
-**Aggiornamenti nell&#39;app v2.1.3.1**
+### Aggiornamenti nell’app v2.1.3.1 {#app-version-2.1.3.1}
 
 Il bug corretto in questa versione è:
 
 * Le velocità di caricamento e download delle risorse sono migliorate, anche con risorse di grandi dimensioni. Questa versione ha risolto un problema che causava l&#39;errore di caricamento di risorse con [!DNL desktop app] in alcuni casi in cui venivano caricati file di dimensioni molto grandi.
 
-**Aggiornamento nell&#39;app v2.1.2.0**
+### Aggiornamenti nell’app v2.1.2.0 {#app-version-2.1.2.0}
 
 * Una nuova opzione per [!UICONTROL Clear Cookies] è stata aggiunta al menu principale dell&#39;applicazione. Consente di risolvere i potenziali problemi di accesso, ad esempio quando si modifica una connessione da un server a un altro. Vedi [cancellare i cookie prima di connettersi](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
@@ -206,21 +227,21 @@ Il bug corretto in questa versione è:
 
   Questo comportamento è simile a quello predefinito nella versione 1 dell’app desktop. Nella versione corrente, invece, se l&#39;opzione non è abilitata, gli spazi vuoti e i caratteri `% ; # , + ? ^ { } "` nei nomi delle cartelle vengono sostituiti con trattini nei percorsi delle cartelle. Inoltre, nei percorsi delle cartelle i caratteri maiuscoli vengono convertiti in minuscolo. Nei nomi dei file, tuttavia, i caratteri `# % { } ? &` vengono sostituiti con un trattino, ma gli spazi vuoti e le maiuscole vengono mantenuti. Per ulteriori informazioni, consulta [Preferenze app](/help/using/install-upgrade.md#set-preferences) e [Caricare e aggiungere nuove risorse](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
-**Aggiornamento nell&#39;app v2.1.1.0**
+### Aggiornamenti nell’app v2.1.1.0 {#app-version-2.1.1.0}
 
 * Un’impostazione avanzata consente all’app di emulare il comportamento dell’app v1.10 durante il caricamento delle cartelle. Nella versione 1.10, i nomi dei nodi creati nell’archivio rispettano gli spazi e le maiuscole/minuscole dei nomi delle cartelle forniti dall’utente. Nella versione 2.1, il comportamento predefinito è invariato: più spazi nei nomi delle cartelle vengono sostituiti da trattini nel nome del nodo dell’archivio e i nomi dei nodi vengono convertiti in minuscolo. Consulta [le preferenze dell&#39;app](/help/using/install-upgrade.md#set-preferences).
 
-**Aggiornamento nell&#39;app v2.1.0.0**
+### Aggiornamenti nell’app v2.1.0.0 {#app-version-2.1.0.0}
 
 * Per caricare le risorse, gli utenti possono ora trascinare i file o le cartelle sull’interfaccia dell’applicazione, direttamente da Esplora risorse o da Mac Finder. Questo processo funziona in aggiunta all’opzione di caricamento disponibile nell’applicazione. Vedi [caricare le risorse](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**Aggiornamento nell&#39;app v2.0.3**
+### Aggiornamenti nell’app v2.0.3 {#app-version-2.0.3}
 
 Il bug corretto in questa versione è:
 
 * È stato risolto il problema di accesso per gli utenti dell&#39;app su Windows che tentavano di accedere all&#39;archivio DAM in [!DNL Adobe Experience Manager] 6.5.5.0.
 
-**Aggiornamenti nell&#39;app v2.0.2**
+### Aggiornamenti nell’app v2.0.2 {#app-version-2.0.2}
 
 Le correzioni e gli aggiornamenti di bug sono:
 
@@ -234,7 +255,7 @@ Le correzioni e gli aggiornamenti di bug sono:
 
 * (Windows) È stato risolto un raro problema di interfaccia app inutilizzabile su alcuni computer Windows. Gli utenti non possono fare clic sull’interfaccia dell’app perché appare distorta con l’area di clic degli elementi dell’interfaccia &quot;spostati&quot; lateralmente. <!-- CQ-4280785 -->
 
-**Aggiornamenti nell&#39;app v2.0.1**
+### Aggiornamenti nell’app v2.0.1 {#app-version-2.0.1}
 
 Le correzioni e gli aggiornamenti di bug sono:
 
