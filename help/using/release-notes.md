@@ -4,7 +4,7 @@ description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibili
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Note sulla versione dell&#39;app desktop [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-La data di rilascio dell’app desktop versione 3.0.1 è il 18 dicembre 2025.  La versione include i seguenti miglioramenti:
+La data di rilascio dell’app desktop versione 3.0.1 è il 20 dicembre 2025.  La versione include i seguenti miglioramenti:
 
 **Flussi di lavoro più fluidi e affidabili**
 
