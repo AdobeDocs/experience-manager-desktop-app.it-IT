@@ -3,7 +3,7 @@ title: Inizia [!DNL Experience Manager] app desktop
 description: Scopri in che modo l'app desktop  [!DNL Experience Manager]  migliora la creazione e la pubblicazione di contenuti con flussi di lavoro e funzionalità di produttività semplificati.
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: a579ab861aa0af8c8415a0f38126de7f33c7a7b3
+source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
@@ -18,7 +18,7 @@ L&#39;integrazione consente a vari ruoli dell&#39;organizzazione di gestire cent
 
 Quando apri l&#39;applicazione dopo la disconnessione o per la prima volta, fornisci l&#39;URL del server [!DNL Experience Manager] nel formato `https://[aem-server-url]:[port]/`. Selezionare quindi l&#39;opzione [!UICONTROL Connect]. Immetti le credenziali per connettere l&#39;app al server.
 
->[!VIDEO](https://video.tv.adobe.com/v/36418?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
 
 Le attività chiave eseguite con l&#39;app desktop [!DNL Adobe Experience Manager] sono:
 
@@ -100,7 +100,7 @@ Al contrario, è possibile aprire la risorsa nell&#39;interfaccia Web a partire 
 
 ## Passaggi successivi {#next-steps}
 
-* [Guarda un video per iniziare a utilizzare Adobe Experience Manager Desktop App](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Guarda un video per iniziare a utilizzare Adobe Experience Manager Desktop App](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Fornisci feedback sulla documentazione utilizzando [!UICONTROL Edit this page] ![modifica la pagina](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crea un problema GitHub](assets/do-not-localize/github-issue.png) disponibile nella barra laterale a destra
 
