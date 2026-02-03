@@ -18,7 +18,7 @@ L&#39;integrazione consente a vari ruoli dell&#39;organizzazione di gestire cent
 
 Quando apri l&#39;applicazione dopo la disconnessione o per la prima volta, fornisci l&#39;URL del server [!DNL Experience Manager] nel formato `https://[aem-server-url]:[port]/`. Selezionare quindi l&#39;opzione [!UICONTROL Connect]. Immetti le credenziali per connettere l&#39;app al server.
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/36418?captions=ita&quality=12&learn=on){transcript=true}
 
 Le attività chiave eseguite con l&#39;app desktop [!DNL Adobe Experience Manager] sono:
 
