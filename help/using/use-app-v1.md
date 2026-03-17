@@ -156,7 +156,7 @@ Per individuare la risorsa specifica nel file system locale, fai clic su **Mostr
 
 [!DNL Experience Manager Assets] consente di estrarre le risorse per la modifica e archiviarle nuovamente dopo aver completato le modifiche. Dopo aver estratto una risorsa, solo tu puoi modificarla, annotarla, pubblicarla, spostarla o eliminarla. L’estrazione di una risorsa blocca la risorsa e impedisce ad altri utenti di eseguire una di queste operazioni. Per poter estrarre/archiviare le risorse, è necessario disporre dell&#39;accesso in scrittura.
 
-Esistono due modi per estrarre le risorse dall&#39;interfaccia Web [!DNL Experience Manager]. Per informazioni dettagliate sul primo metodo, vedere [file di archiviazione ed estrazione dall&#39;interfaccia utente di Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Segui questi passaggi per i secondi metodi per estrarre e aprire la risorsa quando l&#39;app desktop [!DNL Experience Manager] è installata.
+Esistono due modi per estrarre le risorse dall&#39;interfaccia Web [!DNL Experience Manager]. Per informazioni dettagliate sul primo metodo, vedere [file di archiviazione ed estrazione dall&#39;interfaccia utente di Assets](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Segui questi passaggi per i secondi metodi per estrarre e aprire la risorsa quando l&#39;app desktop [!DNL Experience Manager] è installata.
 
 1. Apri l&#39;interfaccia [!DNL Assets] e passa il puntatore su una cartella o una risorsa per visualizzare le azioni sul desktop come azioni rapide nella vista a schede.
 
