@@ -3,9 +3,14 @@ title: Installare e configurare l’app desktop
 description: Installa e configura  [!DNL Adobe Experience Manager] l'app desktop per l'utilizzo con  [!DNL Adobe Experience Manager Assets] server e scarica le risorse nel file system locale.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -60,7 +65,7 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
 1. Se stai eseguendo l&#39;aggiornamento da un&#39;altra versione dell&#39;app, consulta [aggiornare l&#39;app desktop](#upgrade-from-previous-version).
 
-1. Ignora questo passaggio se utilizzi [!DNL Experience Manager] come [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o versione successiva oppure [!DNL Experience Manager] 6.5.0 o versione successiva. Assicurati che la tua configurazione di [!DNL Experience Manager] soddisfi i requisiti di compatibilità indicati nelle [note sulla versione](release-notes.md). Se necessario, scaricare il [pacchetto di compatibilità](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicabile e installarlo utilizzando Gestione pacchetti [!DNL Experience Manager] come amministratore [!DNL Experience Manager]. Per installare un pacchetto, vedere [Come utilizzare i pacchetti](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
+1. Ignora questo passaggio se utilizzi [!DNL Experience Manager] come [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 o versione successiva oppure [!DNL Experience Manager] 6.5.0 o versione successiva. Assicurati che la tua configurazione di [!DNL Experience Manager] soddisfi i requisiti di compatibilità indicati nelle [note sulla versione](release-notes.md). Se necessario, scaricare il [pacchetto di compatibilità](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicabile e installarlo utilizzando Gestione pacchetti [!DNL Experience Manager] come amministratore [!DNL Experience Manager]. Per installare un pacchetto, vedere [Come utilizzare i pacchetti](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Eseguire il file binario del programma di installazione e seguire le istruzioni visualizzate per l&#39;installazione.
 
@@ -92,7 +97,7 @@ Per installare l’app desktop, segui la procedura riportata di seguito. Disinst
 
    *Figura: l&#39;applicazione visualizza il contenuto DAM dopo l&#39;accesso*
 
-1. ([!DNL Experience Manager] 6.5.1 o versione successiva) Se si utilizza l&#39;app desktop con [!DNL Experience Manager] 6.5.1 o versione successiva, aggiornare il connettore S3 o Azure alla versione 1.10.4 o successiva. Vedere [Connettore Azure](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [Connettore S3](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 o versione successiva) Se utilizzi l&#39;app desktop con [!DNL Experience Manager] 6.5.1 o versione successiva, aggiorna il connettore S3 o Azure alla versione 1.10.4 o successiva. Vedere [Connettore Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) o [Connettore S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Se sei un cliente Adobe Managed Services (AMS), contatta l’Assistenza clienti Adobe.
 

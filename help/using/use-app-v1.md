@@ -3,9 +3,14 @@ title: Usa la versione 1.10 dell'app desktop  [!DNL Experience Manager] .
 description: Scopri come utilizzare l’app desktop Adobe Experience Manager versione 1.10 e ottimizzare il tuo lavoro con le risorse sul desktop.
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: 2358
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Questa integrazione consente la gestione centralizzata delle risorse e l&#39;acc
 
 Le attività chiave eseguite con l&#39;app desktop [!DNL Experience Manager] v1 includono:
 
-1. [Connetti con un server  [!DNL Experience Manager] &#x200B;](#installandconnect)
+1. [Connetti con un server  [!DNL Experience Manager] ](#installandconnect)
 1. [Aprire le risorse direttamente nell’app desktop](#openondesktop)
 1. [Modificare ed estrarre le risorse dall’app desktop](#workonassets)
 1. [Caricare risorse e cartelle in blocco](#bulkupload)
@@ -156,7 +161,7 @@ Per individuare la risorsa specifica nel file system locale, fai clic su **Mostr
 
 [!DNL Experience Manager Assets] consente di estrarre le risorse per la modifica e archiviarle nuovamente dopo aver completato le modifiche. Dopo aver estratto una risorsa, solo tu puoi modificarla, annotarla, pubblicarla, spostarla o eliminarla. L’estrazione di una risorsa blocca la risorsa e impedisce ad altri utenti di eseguire una di queste operazioni. Per poter estrarre/archiviare le risorse, è necessario disporre dell&#39;accesso in scrittura.
 
-Esistono due modi per estrarre le risorse dall&#39;interfaccia Web [!DNL Experience Manager]. Per informazioni dettagliate sul primo metodo, vedere [file di archiviazione ed estrazione dall&#39;interfaccia utente di Assets](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Segui questi passaggi per i secondi metodi per estrarre e aprire la risorsa quando l&#39;app desktop [!DNL Experience Manager] è installata.
+Esistono due modi per estrarre le risorse dall&#39;interfaccia Web [!DNL Experience Manager]. Per informazioni dettagliate sul primo metodo, vedere [file di archiviazione ed estrazione dall&#39;interfaccia utente di Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Segui questi passaggi per i secondi metodi per estrarre e aprire la risorsa quando l&#39;app desktop [!DNL Experience Manager] è installata.
 
 1. Apri l&#39;interfaccia [!DNL Assets] e passa il puntatore su una cartella o una risorsa per visualizzare le azioni sul desktop come azioni rapide nella vista a schede.
 

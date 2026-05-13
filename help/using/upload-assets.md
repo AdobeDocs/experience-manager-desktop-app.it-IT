@@ -3,9 +3,12 @@ title: Carica risorse tramite  [!DNL Experience Manager] app desktop
 description: Carica le risorse tramite  [!DNL Adobe Experience Manager] app desktop.
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 841
 ht-degree: 2%
 
 ---
@@ -25,7 +28,7 @@ Utilizza **[!UICONTROL Toggle Check-out]** per bloccare la risorsa per evitare c
 * Hai iniziato a modificare una risorsa senza prima estrarla (ad esempio semplicemente aprendola).
 * Intendi iniziare presto a modificare una risorsa e non desideri che altri la modifichino.
 
-Dopo aver apportato le modifiche, l&#39;app visualizza lo stato **[!UICONTROL Edited Locally]** per le risorse modificate. Tutte le modifiche salvate nelle risorse sono solo locali finché non carichi le modifiche in [!DNL Experience Manager]. Per caricare una o più risorse una alla volta, fai clic su **[!UICONTROL Upload Changes]** tra le opzioni per una risorsa. Crea una versione della risorsa in [!DNL Experience Manager]. Utilizzando l&#39;interfaccia Web di [!DNL Assets], è possibile visualizzare la cronologia delle risorse nella [visualizzazione Timeline](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/using/activity-stream).
+Dopo aver apportato le modifiche, l&#39;app visualizza lo stato **[!UICONTROL Edited Locally]** per le risorse modificate. Tutte le modifiche salvate nelle risorse sono solo locali finché non carichi le modifiche in [!DNL Experience Manager]. Per caricare una o più risorse una alla volta, fai clic su **[!UICONTROL Upload Changes]** tra le opzioni per una risorsa. Crea una versione della risorsa in [!DNL Experience Manager]. Utilizzando l&#39;interfaccia Web di [!DNL Assets], è possibile visualizzare la cronologia delle risorse nella [visualizzazione Timeline](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Opzione Carica modifiche nell&#39;app](assets/upload_changes_single1_da2.png "Opzione Carica modifiche nell&#39;app")
 
@@ -71,11 +74,11 @@ Dopo il caricamento, se le modifiche previste non vengono riportate nell&#39;app
 
 >[!NOTE]
 >
->Non utilizzare la funzionalità di caricamento per eseguire la migrazione delle risorse tra due distribuzioni di [!DNL Experience Manager]. Vedi invece la [guida alla migrazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Non utilizzare la funzionalità di caricamento per eseguire la migrazione delle risorse tra due distribuzioni di [!DNL Experience Manager]. Vedi invece la [guida alla migrazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ## Passaggi successivi {#next-steps}
 
-* [Guarda un video per iniziare a utilizzare l’app desktop Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Guarda un video per iniziare a utilizzare l’app desktop Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Fornisci feedback sulla documentazione utilizzando [!UICONTROL Edit this page] ![modifica la pagina](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crea un problema GitHub](assets/do-not-localize/github-issue.png) disponibile nella barra laterale a destra
 
