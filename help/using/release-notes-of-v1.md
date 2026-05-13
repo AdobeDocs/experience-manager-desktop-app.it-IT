@@ -435,7 +435,7 @@ Poiché la cartella `/Volumes` non richiede più diritti amministrativi, questa 
 
 ## Risorse utili {#helpful-resources}
 
-* [Documentazione di AEM](https://experienceleague.adobe.com/en/docs)
+* [Documentazione di AEM](https://experienceleague.adobe.com/it/docs)
 * [Utilizzare l’app desktop AEM v1.x](use-app-v1.md)
 * [Best practice per l’app desktop AEM v1.x](best-practices-for-v1.md)
 
