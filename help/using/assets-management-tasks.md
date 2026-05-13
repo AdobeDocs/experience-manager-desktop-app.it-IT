@@ -2,13 +2,22 @@
 title: Usa  [!DNL Experience Manager]  app desktop
 description: Utilizza l'app desktop  [!DNL Adobe Experience Manager]  per lavorare con  [!DNL Adobe Experience Manager] risorse DAM direttamente dal desktop Win o Mac e utilizzarle in altre applicazioni.
 feature: Desktop App,Asset Management
-source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
+exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
+TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 0%
+source-wordcount: 1438
+ht-degree: 1%
 
 ---
-
 
 # Attività di gestione Assets in [!DNL AEM Desktop App] {#assets-management-tasks}
 
@@ -160,7 +169,7 @@ Per provare questo flusso di lavoro con una risorsa immagine e InDesign, effettu
 
 ## Passaggi successivi {#next-steps}
 
-* [Guarda un video per iniziare a utilizzare Adobe Experience Manager Desktop App](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Guarda un video per iniziare a utilizzare l’app desktop Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Fornisci feedback sulla documentazione utilizzando [!UICONTROL Edit this page] ![modifica la pagina](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crea un problema GitHub](assets/do-not-localize/github-issue.png) disponibile nella barra laterale a destra
 

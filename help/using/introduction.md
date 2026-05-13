@@ -3,9 +3,17 @@ title: 'Introduzione all''app desktop  [!DNL Experience Manager] '
 description: Scopri come utilizzare l'app desktop  [!DNL Adobe Experience Manager]  per ottimizzare i flussi di lavoro di gestione delle risorse per gli utenti creativi quando utilizzano  [!DNL Adobe Experience Manager Assets] direttamente dal desktop.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
+TQID: https://experienceleague.adobe.com/HLUPg-NqgUOo8vWLxYeeU-BF3cJuF5DQDQNuvzufxDQ
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: 623
 ht-degree: 39%
 
 ---

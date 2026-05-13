@@ -2,13 +2,20 @@
 title: 'Scarica risorse tramite l''app desktop  [!DNL Experience Manager] '
 description: Scarica le risorse tramite l'app desktop  [!DNL Adobe Experience Manager] .
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
+TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 1%
+source-wordcount: 436
+ht-degree: 2%
 
 ---
-
 
 # Scaricare le risorse localmente {#download-assets-locally}
 
@@ -40,7 +47,7 @@ Se le cartelle sono selezionate e scaricate, l&#39;applicazione scarica solo le 
 
 ## Passaggi successivi {#next-steps}
 
-* [Guarda un video per iniziare a utilizzare Adobe Experience Manager Desktop App](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Guarda un video per iniziare a utilizzare l’app desktop Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Fornisci feedback sulla documentazione utilizzando [!UICONTROL Edit this page] ![modifica la pagina](assets/do-not-localize/edit-page.png) o [!UICONTROL Log an issue] ![crea un problema GitHub](assets/do-not-localize/github-issue.png) disponibile nella barra laterale a destra
 
@@ -51,4 +58,3 @@ Se le cartelle sono selezionate e scaricate, l&#39;applicazione scarica solo le 
 >* [Carica risorse](/help/using/upload-assets.md)
 >* [Interfaccia utente](/help/using/user-interface.md)
 >* [Ricerca](/help/using/search.md)
-
