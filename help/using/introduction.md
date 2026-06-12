@@ -4,13 +4,8 @@ description: Scopri come utilizzare l'app desktop  [!DNL Adobe Experience Manage
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 TQID: https://experienceleague.adobe.com/HLUPg-NqgUOo8vWLxYeeU-BF3cJuF5DQDQNuvzufxDQ
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 623
@@ -24,7 +19,7 @@ Adobe offre flussi di lavoro collegati tra le sue soluzioni per garantire una pr
 
 Utilizzando l&#39;app, le risorse in [!DNL Experience Manager Assets] sono facilmente accessibili sul desktop locale e possono essere utilizzate in qualsiasi applicazione desktop. Puoi aprire e modificare le risorse nelle applicazioni desktop che preferisci. Le modifiche locali vengono salvate come nuova versione in [!DNL Experience Manager] solo quando si caricano le modifiche, consentendo un&#39;efficiente modifica in corso di lavorazione sul desktop. L&#39;app supporta il caricamento di risorse e cartelle nidificate in [!DNL Experience Manager], semplificando l&#39;aggiunta di nuovi contenuti all&#39;archivio.
 
-Tale integrazione consente a vari ruoli dell&#39;organizzazione di gestire centralmente le risorse in [!DNL Experience Manager Assets]. Gli addetti al marketing e gli utenti aziendali possono garantire la conformità ai vari standard, inclusi branding e licenze. Gli utenti di Creative con uno strumento [Adobe Asset Link](https://business.adobe.com/it/products/experience-manager/assets/adobe-asset-link.html) dedicato possono accedere alle risorse in Adobe Photoshop, Illustrator e InDesign e possono accedere anche alle risorse sul desktop in Creative Cloud e in altre applicazioni native.
+Tale integrazione consente a vari ruoli dell&#39;organizzazione di gestire centralmente le risorse in [!DNL Experience Manager Assets]. Gli addetti al marketing e gli utenti aziendali possono garantire la conformità ai vari standard, inclusi branding e licenze. Gli utenti di Creative con uno strumento [Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html) dedicato possono accedere alle risorse in Adobe Photoshop, Illustrator e InDesign e possono accedere anche alle risorse sul desktop in Creative Cloud e in altre applicazioni native.
 
 >[!NOTE]
 >
@@ -39,7 +34,7 @@ La documentazione dell’app desktop contiene informazioni relative ai seguenti 
 | Usi già l’app desktop, vuoi aggiornarla e passare senza problemi alla nuova versione? | [Eseguire l’aggiornamento dalla versione precedente](install-upgrade.md#upgrade-from-previous-version) |
 | Sei pronto per iniziare e vuoi modificare le preferenze predefinite? | [Installare e configurare l’app](install-upgrade.md) |
 | Vuoi scoprire come utilizzare l’app per sfogliare, individuare, modificare, caricare, risolvere i conflitti, eseguire operazioni in serie e così via? | [Usa [!DNL Experience Manager] app desktop](using-desktop-app.md) |
-| Si sta verificando un problema? | [Risoluzione dei problemi relativi all&#39;app desktop [!DNL Experience Manager] &#x200B;](troubleshoot.md) |
+| Si sta verificando un problema? | [Risoluzione dei problemi relativi all&#39;app desktop [!DNL Experience Manager] ](troubleshoot.md) |
 
 ## Novità dell’app {#whats-new-v2}
 
