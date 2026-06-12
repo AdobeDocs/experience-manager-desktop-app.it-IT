@@ -3,19 +3,11 @@ title: Installare e configurare l’app desktop v1.10
 description: Installa e configura  [!DNL Experience Manager] l'app desktop versione 1.10 per l'utilizzo con  [!DNL Assets] server e mappa le risorse da installare come unità sul desktop.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -75,9 +67,9 @@ I metodi di copia e spostamento nell&#39;API di Assets richiedono il passaggio d
 * Profondità X
 * X-Overwrite
 
-Il desktop [!DNL Experience Manager] si connette a [!DNL Experience Manager] utilizzando un URL che include la porta predefinita. Pertanto, l&#39;impostazione `virtualhosts` nella configurazione Dispatcher deve includere il numero di porta predefinito. Per ulteriori informazioni sulla configurazione di `virtualhosts`, vedere [identificare gli host virtuali](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+Il desktop [!DNL Experience Manager] si connette a [!DNL Experience Manager] utilizzando un URL che include la porta predefinita. Pertanto, l&#39;impostazione `virtualhosts` nella configurazione Dispatcher deve includere il numero di porta predefinito. Per ulteriori informazioni sulla configurazione di `virtualhosts`, vedere [identificare gli host virtuali](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Per ulteriori informazioni sulla configurazione di Dispatcher per passare attraverso queste intestazioni aggiuntive, vedere [Specifica delle intestazioni HTTP](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Per ulteriori informazioni sulla configurazione di Dispatcher per passare attraverso queste intestazioni aggiuntive, vedere [Specifica delle intestazioni HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Supporto proxy {#proxy-support}
 
@@ -109,7 +101,7 @@ In macOS X, una directory simile si trova in `~/Library/Group Containers/group.c
 
 ### Opzione in-app per gestire la cache {#in-app-option-to-manage-cache}
 
-È possibile controllare la quantità di spazio su disco disponibile per la memorizzazione nella cache locale. Gli artefatti del server Assets vengono memorizzati nella cache locale per un’esperienza più fluida. È possibile modificare le impostazioni predefinite in base alle proprie esigenze. Inoltre, puoi cancellare la cache per recuperare nuovamente tutte le risorse. Per impostare le opzioni desiderate, fare clic sull&#39;icona dell&#39;applicazione e fare clic su **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. **&#x200B;**
+È possibile controllare la quantità di spazio su disco disponibile per la memorizzazione nella cache locale. Gli artefatti del server Assets vengono memorizzati nella cache locale per un’esperienza più fluida. È possibile modificare le impostazioni predefinite in base alle proprie esigenze. Inoltre, puoi cancellare la cache per recuperare nuovamente tutte le risorse. Per impostare le opzioni desiderate, fare clic sull&#39;icona dell&#39;applicazione e fare clic su **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -141,6 +133,6 @@ Per puntare l&#39;applicazione a una cartella diversa o a un&#39;unità diversa,
 
 >[!MORELIKETHIS]
 >
->* Guarda un [introduzione all&#39;app desktop](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuti, 43 secondi). [!DNL Experience Manager] 
+>* Guarda un [introduzione all&#39;app desktop](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuti, 43 secondi). [!DNL Experience Manager] 
 >* [Utilizza [!DNL Experience Manager] app desktop](use-app-v1.md).
 >* [Risoluzione dei problemi [!DNL Experience Manager] app desktop](troubleshoot-app-v1.md).
