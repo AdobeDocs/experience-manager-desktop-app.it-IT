@@ -1,31 +1,42 @@
 ---
 title: Note sulla versione dell'app desktop [!DNL Adobe Experience Manager]
-description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibilità e collegamenti di download per  [!DNL Adobe Experience Manager] App desktop.
+description: Dettagli sulla versione, miglioramenti, nuove funzioni, compatibilità e collegamenti per il download dell'app desktop [!DNL Adobe Experience Manager].
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Data management
+source-git-commit: d5e89df1c3930b5206efedadef064a2bf0838564
 workflow-type: tm+mt
-source-wordcount: 5259
-ht-degree: 5%
-
+source-wordcount: '5588'
+ht-degree: 4%
 ---
-
 # Note sulla versione dell&#39;app desktop [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Questa versione dell’app desktop 3.0.2 include correzioni di bug per migliorare la stabilità e le prestazioni complessive dell’applicazione.
+Questa versione dell’app desktop 3.0.3 include i miglioramenti e le correzioni di bug seguenti.
+
+**Stabilità e prestazioni migliorate**
+* Gestione delle richieste migliorata per evitare richieste eccessive a [!DNL Experience Manager].
+* Maggiore affidabilità durante il download di risorse di grandi dimensioni.
+* È stato risolto un problema che poteva causare l’arresto anomalo o la mancata risposta dell’app desktop su macOS durante l’utilizzo di file di grandi dimensioni.
 
 Le **versioni supportate di [!DNL Experience Manager]** sono:
 
@@ -43,6 +54,10 @@ I **URL di download** per il sistema operativo supportato sono:
 
 | Sistema operativo | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.3) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) |
+| Silicio macOS Apple (M1) (v3.0.3) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) |
+| Windows a 64 bit (v3.0.3) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) |
+| Windows Enterprise a 64 bit (v3.0.3) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) |
 | macOS (v3.0.2) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
 | Silicio macOS Apple (M1) (v3.0.2) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
 | Windows a 64 bit (v3.0.2) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [Collegamento di download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
@@ -107,7 +122,9 @@ La funzionalità è supportata con le versioni [!DNL Adobe Creative Cloud] 2018 
 
 ## Nuove funzioni, miglioramenti e correzioni di bug {#what-is-new}
 
-Per ulteriori informazioni, vedere [Novità della versione v3.0.2](introduction.md#whats-new-v2).
+### Aggiornamenti nell’app v3.0.2 {#app-version-3.0.2}
+
+Questa versione dell’app desktop 3.0.2 include correzioni di bug per migliorare la stabilità e le prestazioni complessive dell’applicazione.
 
 ### Aggiornamenti nell’app v3.0.1 {#app-version-3.0.1}
 
@@ -295,13 +312,13 @@ Se aggiorni un&#39;app desktop [!DNL Experience Manager] precedente, segui le be
 
 * L&#39;applicazione fornisce il controllo completo sulle operazioni che richiedono il trasferimento completo dei file binari delle risorse da e verso [!DNL Experience Manager] (**Apri**, **Modifica**, **Carica modifiche** e **Carica Assets**).
 
-   * Se desideri utilizzare la risorsa sul desktop, devi selezionare in modo esplicito le opzioni Apri, Modifica o Scarica sul desktop singolarmente, in una cartella o tramite selezione multipla.
+  * Se desideri utilizzare la risorsa sul desktop, devi selezionare in modo esplicito le opzioni Apri, Modifica o Scarica sul desktop singolarmente, in una cartella o tramite selezione multipla.
 
-   * Se desideri apportare modifiche locali alle risorse caricate in [!DNL Experience Manager], devi selezionare [!UICONTROL Upload Changes], singolarmente o tramite selezione multipla.
+  * Se desideri apportare modifiche locali alle risorse caricate in [!DNL Experience Manager], devi selezionare [!UICONTROL Upload Changes], singolarmente o tramite selezione multipla.
 
-   * L&#39;applicazione non è un &#39;client di sincronizzazione&#39; che sincronizza le risorse tra il desktop e [!DNL Experience Manager].
+  * L&#39;applicazione non è un &#39;client di sincronizzazione&#39; che sincronizza le risorse tra il desktop e [!DNL Experience Manager].
 
-   * L&#39;applicazione non fornisce una condivisione di rete che mappa l&#39;archivio [!DNL Experience Manager] come struttura di cartelle virtuali.
+  * L&#39;applicazione non fornisce una condivisione di rete che mappa l&#39;archivio [!DNL Experience Manager] come struttura di cartelle virtuali.
 
 * L’elenco delle risorse visualizzato dall’applicazione si basa sullo stato dell’archivio Assets. I file scaricati in locale e successivamente rinominati nei file locali o nella cartella della cache non vengono visualizzati o gestiti con l&#39;applicazione.
 
