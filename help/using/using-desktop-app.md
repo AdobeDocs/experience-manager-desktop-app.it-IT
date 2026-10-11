@@ -49,7 +49,7 @@ In alcuni casi, ad esempio quando si inserisce una risorsa in un documento nativ
 
 ![Azione Mostra file per una risorsa](assets/revealfile_action_da2.png "Azione Mostra file per una risorsa")
 
-Fare clic su **[!UICONTROL Reveal File]** o su **[!UICONTROL Reveal Folder]** in una cartella per aprire Esplora risorse o Mac Finder con il file o la cartella preselezionati nel computer locale. Ad esempio, l&#39;opzione è utile per inserire i file [!DNL Experience Manager] nelle applicazioni native che supportano il posizionamento o il collegamento di file locali. Per informazioni su come inserire file in Adobe InDesign, vedere [Inserimento di elementi grafici](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Fare clic su **[!UICONTROL Reveal File]** o su **[!UICONTROL Reveal Folder]** in una cartella per aprire Esplora risorse o Mac Finder con il file o la cartella preselezionati nel computer locale. Ad esempio, l&#39;opzione è utile per inserire i file [!DNL Experience Manager] nelle applicazioni native che supportano il posizionamento o il collegamento di file locali. Per informazioni su come inserire file in Adobe InDesign, vedere [Inserimento di elementi grafici](https://helpx.adobe.com/it/indesign/using/placing-graphics.html).
 
 L&#39;azione **[!UICONTROL Reveal File]** apre una condivisione di rete locale. Vengono visualizzate solo le risorse disponibili localmente. In altre parole, visualizza le risorse che sono state rivelate, scaricate o aperte/modificate utilizzando l’app. La condivisione di rete locale non carica le modifiche in [!DNL Experience Manager]. Per caricare le modifiche, utilizza esplicitamente le azioni **[!UICONTROL Upload Changes]** o **[!UICONTROL Upload]** nell&#39;app.
 
