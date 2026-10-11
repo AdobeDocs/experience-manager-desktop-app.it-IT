@@ -1,25 +1,36 @@
 ---
-title: Usa  [!DNL Experience Manager]  app desktop
-description: Utilizza l'app desktop  [!DNL Adobe Experience Manager]  per lavorare con  [!DNL Adobe Experience Manager] risorse DAM direttamente dal desktop Win o Mac e utilizzarle in altre applicazioni.
+title: Usa l'app desktop [!DNL Experience Manager]
+description: Utilizza l'app desktop [!DNL Adobe Experience Manager] per lavorare con [!DNL Adobe Experience Manager] risorse DAM direttamente dal desktop Win o Mac e utilizzale in altre applicazioni.
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-TQID: https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M
+TQID: 'https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 4093
+source-wordcount: '4096'
 ht-degree: 0%
-
 ---
-
 # Usa l&#39;app desktop [!DNL Adobe Experience Manager]  {#use-aem-desktop-app-v2}
 
 Utilizzare l&#39;app desktop [!DNL Adobe Experience Manager] per accedere alle risorse digitali archiviate in un archivio DAM [!DNL Adobe Experience Manager] sul desktop locale. Puoi quindi utilizzare queste risorse in qualsiasi applicazione desktop. Puoi aprire e modificare le risorse localmente nelle applicazioni desktop. Dopo aver apportato le modifiche, caricarle di nuovo in [!DNL Experience Manager] con il controllo della versione per condividere gli aggiornamenti con altri utenti. È inoltre possibile caricare nuovi file e gerarchie di cartelle in [!DNL Experience Manager], creare cartelle ed eliminare risorse o cartelle da [!DNL Experience Manager] DAM.
